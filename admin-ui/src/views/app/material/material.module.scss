@@ -1,0 +1,92 @@
+.pageContainer {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+
+    :global {
+        .ant-tabs-nav {
+            margin: 0 !important;
+        }
+    }
+
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+
+        .left {
+            width: 180px;
+            height: calc(100% - 28px);
+            border-right: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+
+            .top {
+                flex: 1;
+                padding: 10px;
+
+                .cateList {
+                    .cateItem {
+                        margin-bottom: 15px;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #1890ff;
+                        }
+
+                        .title {
+                            margin-left: 5px;
+                        }
+
+                        &.selected {
+                            color: #1890ff;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-top: 1px solid #e0e0e0;
+            }
+        }
+
+        .right {
+            flex: 1;
+            height: calc(100% - 28px);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .rightTop {}
+
+            .rightContent {
+                flex: 1;
+                padding-top: 15px;
+
+                .checkAll {}
+
+                .imageList {
+                    padding-top: 15px;
+
+                    .imageName {
+                        width: 118px;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        margin-top: 5px;
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

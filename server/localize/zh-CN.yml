@@ -1,0 +1,8 @@
+welcome: 欢迎！
+hello_world: 你好 %s!
+upload_success: 上传成功！
+upload_file_size_error: 文件大小不能超过 %d MB
+upload_fail: 上传失败！
+publish_success: 发布成功！
+publish_fail: 发布失败！
+please_upload_file: 请上传文件！

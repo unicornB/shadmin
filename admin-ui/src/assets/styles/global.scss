@@ -1,0 +1,103 @@
+$color: #fcfcfc;
+
+body {
+    background-color: $color;
+    // 禁用文字选中
+    user-select: none;
+}
+
+img {
+    // 禁止拖动图片
+    -webkit-user-drag: none;
+}
+
+// #root,
+// body,
+// html {
+//     height: 100% !important;
+// }
+
+// .ant-layout {
+//     display: flex;
+//     width: 100% !important;
+//     min-height: 100% !important;
+// }
+//display: 'flex', alignItems: 'center', justifyContent: 'center', height: 32, margin: 16, background: 'rgba(255, 255, 255, 0.2)', borderRadius: borderRadiusLG, color: '#fff'
+// 首页的布局样式
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    span {
+        color: #fff;
+        margin-left: 10px;
+    }
+}
+
+.site-layout .site-layout-background {
+    background: #ccc;
+}
+
+.card-container {
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+.ant-menu-item-selected {
+    background-color: transparent !important;
+    color: #1890ff !important;
+}
+
+.ant-layout-sider,
+.ant-menu-dark {
+    background: #304156 !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline,
+.ant-layout-sider-trigger {
+    background: #1f2d3d !important;
+}
+
+//下拉闪烁问题
+.ant-dropdown {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+}
+
+.slide-up-enter,
+.slide-up-appear {
+    animation-duration: 0s;
+}
+
+.search {
+    // background-color: #fff;
+    padding-left: 10px;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    width: 200px !important;
+}
+
+.flex-center-v {
+    align-items: center;
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

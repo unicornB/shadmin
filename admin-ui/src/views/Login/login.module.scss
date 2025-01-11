@@ -1,0 +1,112 @@
+.loginPage {
+    // position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .loginBox {
+        box-shadow: 0 0 8px rgba(0, 0, 0, .1), 0 1px rgba(0, 0, 0, .04);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        background-clip: padding-box;
+        width: 896px;
+        height: 408px;
+        margin: auto;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .loginImg {
+            width: auto;
+            height: 408px;
+            border-radius: 10px 0 0 10px;
+            display: block;
+            max-height: 100%;
+        }
+
+        .form {
+            padding: 45px 39px 31px;
+            height: 408px;
+            box-sizing: border-box;
+            flex: 1;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 22px;
+            text-align: center;
+            color: #fff;
+        }
+
+        p {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .title {
+            margin: 0 auto 40px;
+            text-align: center;
+            font-size: 28px;
+            font-family: Microsoft YaHei;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .loginBtn:disabled {
+            background: #5a96ea !important;
+            border: 1px solid #5a96ea !important;
+            color: #999 !important;
+        }
+    }
+}
+
+// .loginbox {
+
+//     // 控制表单元素
+//     .ant-input,
+//     .ant-input-password {
+//         background-color: rgba(255, 255, 255, 0);
+//         border-color: #1890ff;
+//         color: #fff;
+//         height: 38px;
+//     }
+
+//     // placeholder字体颜色的控制
+//     .ant-input::-webkit-input-placeholder {
+//         // color:#1890ff;
+//         color: rgba(24, 144, 255, .8);
+//     }
+
+//     // 单独控制密码盒子的高度
+//     .ant-input-password .ant-input {
+//         height: 28px;
+//     }
+
+//     // 控制眼睛图标
+//     .ant-input-password-icon.anticon,
+//     .ant-input-password-icon.anticon:hover {
+//         color: #1890ff;
+//     }
+
+//     // 控制验证码盒子
+//     .captchaBox {
+//         display: flex;
+
+//         .captchaImg {
+//             margin-left: 20px;
+//             cursor: pointer;
+//         }
+//     }
+
+//     // 控制登录按钮
+//     .loginBtn {
+//         height: 38px;
+//     }
+// }
