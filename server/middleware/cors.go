@@ -2,6 +2,7 @@ package middleware
 
 import (
 	"fmt"
+	"os"
 	"regexp"
 
 	"github.com/gin-contrib/cors"
@@ -13,10 +14,10 @@ func Cors() gin.HandlerFunc {
 
 	config := cors.DefaultConfig()
 	config.AllowMethods = []string{"GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"}
-	config.AllowHeaders = []string{"Origin", "Content-Length", "Content-Type", "Cookie", "Authorization"}
+	config.AllowHeaders = []string{"Origin", "Content-Length", "Content-Type", "Access-Control-Allow-Origin", "Access-Control-Allow-Headers", "Content-Language", "Authorization"}
 	if gin.Mode() == gin.ReleaseMode {
 		// 生产环境需要配置跨域域名，否则403
-		config.AllowOrigins = []string{"http://www.example.com"}
+		config.AllowOrigins = []string{os.Getenv("CORS_ALLOW")}
 	} else {
 		// 测试环境下模糊匹配本地开头的请求
 		config.AllowOriginFunc = func(origin string) bool {
@@ -28,8 +29,10 @@ func Cors() gin.HandlerFunc {
 			}
 			return false
 		}
+
 	}
 	fmt.Println("设置跨域")
 	config.AllowCredentials = true
+
 	return cors.New(config)
 }

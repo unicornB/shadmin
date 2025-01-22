@@ -18,3 +18,11 @@ export const configUpdate = (params: SysConfig) => {
 export const configDel = (id: number) => {
     return request.delete<{ msg: string }>("/admin/config/delete/" + id);
 }
+//根据key获取配置信息
+export const getConfigInfo = (configKey: string) => {
+    return request.get<{ data: SysConfig }>("/admin/config/info/" + configKey);
+}
+//根据key更新配置信息
+export const updateByKey = (params: SysConfig) => {
+    return request.put<{ code: number, msg: string }>("/admin/config/updateByKey", params);
+}

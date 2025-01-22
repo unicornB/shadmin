@@ -1,0 +1,3054 @@
+{
+    "status": 200,
+    "msg": "success",
+    "data": {
+        "info": {
+            "id": 6,
+            "version": "675f7ffcb28ff",
+            "name": "蓝色主题模板（官方演示勿动！）",
+            "template_name": "",
+            "value": {
+                "1732841638002000": {
+                    "name": "headerSerch",
+                    "timestamp": 1732841638002000,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "bgColor": {
+                        "title": "背景颜色(渐变)",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ]
+                    },
+                    "boxStyle": {
+                        "title": "边框样式",
+                        "name": "boxStyle",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            },
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            }
+                        ]
+                    },
+                    "txtStyle": {
+                        "title": "文本位置",
+                        "name": "txtStyle",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "居左",
+                                "icon": "icondoc_left"
+                            },
+                            {
+                                "val": "居中",
+                                "icon": "icondoc_center"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 8,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 0,
+                        "min": 0
+                    },
+                    "hotWords": {
+                        "list": [
+                            {
+                                "val": ""
+                            }
+                        ]
+                    },
+                    "logoConfig": {
+                        "type": 1,
+                        "header": "设置logo",
+                        "title": "",
+                        "url": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2023\/09\/20230914\/49820a4670df3cba0f09e22bd02069e6.png"
+                    },
+                    "id": "id1732841638002000"
+                },
+                "1732841638002001": {
+                    "name": "pictureCube",
+                    "timestamp": 1732841638002001,
+                    "tabConfig": {
+                        "title": "选择样式",
+                        "tabVal": 0,
+                        "type": 1,
+                        "tabList": [
+                            {
+                                "name": "样式一",
+                                "icon": "iconyangshi1",
+                                "count": 1
+                            },
+                            {
+                                "name": "样式二",
+                                "icon": "iconyangshi2",
+                                "count": 2
+                            },
+                            {
+                                "name": "样式三",
+                                "icon": "iconyangshi3",
+                                "count": 3
+                            },
+                            {
+                                "name": "样式四",
+                                "icon": "iconyangshi9",
+                                "count": 3
+                            },
+                            {
+                                "name": "样式五",
+                                "icon": "iconyangshi8",
+                                "count": 4
+                            },
+                            {
+                                "name": "样式六",
+                                "icon": "iconyangshi4",
+                                "count": 4
+                            }
+                        ]
+                    },
+                    "picStyle": {
+                        "tabVal": 0,
+                        "picList": [
+                            {
+                                "image": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/10\/942da202410101030292058.png",
+                                "link": ""
+                            }
+                        ]
+                    },
+                    "menuConfig": {
+                        "title": "",
+                        "maxList": 1,
+                        "isCube": 1,
+                        "list": [
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/10\/942da202410101030292058.png",
+                                "info": [
+                                    {
+                                        "title": "链接",
+                                        "tips": "请输入链接",
+                                        "value": "",
+                                        "max": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "bgStyle": {
+                        "title": "背景样式",
+                        "name": "bgStyle",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 0,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 0,
+                        "min": 0
+                    },
+                    "id": "id1732841638002001"
+                },
+                "1732841638002002": {
+                    "name": "swiperBg",
+                    "timestamp": 1732841638002002,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "swiperConfig": {
+                        "title": "最多可添加10张图片，建议宽度750px；鼠标拖拽左侧圆点可调整图片 顺序",
+                        "maxList": 10,
+                        "list": [
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/6c7e799c0fc292cff1eeb2a464c1a04a.jpg",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/goods\/goods_list\/index?cid=6&title=美妆个护",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/74da3f3ea2fb1cd144435bc0bbe51975.jpg",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/goods\/goods_list\/index?cid=1&title=家用电器",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/fea8a0f35e1d129456f4d3096f90e4bb.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/extension\/news_details\/index?id=161",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "isShow": {
+                        "title": "是否显示背景色",
+                        "val": 1
+                    },
+                    "bgColor": {
+                        "title": "背景颜色(渐变)",
+                        "default": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ]
+                    },
+                    "dotColor": {
+                        "title": "指示器颜色",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "lrConfig": {
+                        "title": "左右边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 0,
+                        "min": 0
+                    },
+                    "docConfig": {
+                        "cname": "swiper",
+                        "title": "指示器样式",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "圆形",
+                                "icon": "iconDot"
+                            },
+                            {
+                                "val": "直线",
+                                "icon": "iconSquarepoint"
+                            },
+                            {
+                                "val": "数字",
+                                "icon": "iconshuzi"
+                            },
+                            {
+                                "val": "无指示器",
+                                "icon": "iconjinyong"
+                            }
+                        ]
+                    },
+                    "txtStyle": {
+                        "title": "指示器位置",
+                        "type": 2,
+                        "list": [
+                            {
+                                "val": "居左",
+                                "icon": "icondoc_left"
+                            },
+                            {
+                                "val": "居中",
+                                "icon": "icondoc_center"
+                            },
+                            {
+                                "val": "居右",
+                                "icon": "icondoc_right"
+                            }
+                        ]
+                    },
+                    "imgConfig": {
+                        "cname": "docStyle",
+                        "title": "轮播图样式",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            },
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            }
+                        ]
+                    },
+                    "id": "id1732841638002002"
+                },
+                "1732841638002003": {
+                    "name": "news",
+                    "timestamp": 1732841638002003,
+                    "setUp": {
+                        "tabVal": 0
+                    },
+                    "txtStyle": {
+                        "title": "文本位置",
+                        "name": "txtStyle",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "居左",
+                                "icon": "icondoc_left",
+                                "style": "left"
+                            },
+                            {
+                                "val": "居中",
+                                "icon": "icondoc_center",
+                                "style": "center"
+                            },
+                            {
+                                "val": "居右",
+                                "icon": "icondoc_right",
+                                "style": "right"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "txtColor": {
+                        "title": "文字颜色",
+                        "default": [
+                            {
+                                "item": "#333"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#333"
+                            }
+                        ]
+                    },
+                    "listConfig": {
+                        "title": "最多可添加10个版块；鼠标拖拽左侧圆点可调整版块顺序",
+                        "max": 10,
+                        "list": [
+                            {
+                                "chiild": [
+                                    {
+                                        "title": "标题",
+                                        "val": "本商城为测试站，请勿真实下单～",
+                                        "max": 30,
+                                        "pla": "选填，不超过30个字",
+                                        "empty": "1"
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "val": "\/pages\/extension\/news_details\/index?id=127",
+                                        "max": 200,
+                                        "pla": "请输入连接"
+                                    }
+                                ]
+                            }
+                        ],
+                        "tabCur": 0
+                    },
+                    "bgStyle": {
+                        "title": "背景样式",
+                        "name": "bgStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "logoConfig": {
+                        "header": "图标设置",
+                        "title": "最多可添加1张图片，建议宽度130 * 36px",
+                        "url": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/02\/20240223\/d20195453b40324d892e0b27a53abfeb.png"
+                    },
+                    "id": "id1732841638002003"
+                },
+                "1732841638002004": {
+                    "name": "menus",
+                    "timestamp": 1732841638002004,
+                    "setUp": {
+                        "tabVal": 0
+                    },
+                    "tabConfig": {
+                        "title": "展示样式",
+                        "tabVal": 1,
+                        "type": 1,
+                        "tabList": [
+                            {
+                                "name": "单行展示",
+                                "icon": "icondanhang"
+                            },
+                            {
+                                "name": "多行展示",
+                                "icon": "iconduohang"
+                            }
+                        ]
+                    },
+                    "rowsNum": {
+                        "title": "显示行数",
+                        "name": "rowsNum",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "2行",
+                                "icon": "icon2hang"
+                            },
+                            {
+                                "val": "3行",
+                                "icon": "icon3hang"
+                            },
+                            {
+                                "val": "4行",
+                                "icon": "icon4hang"
+                            }
+                        ]
+                    },
+                    "menuStyle": {
+                        "title": "图标样式",
+                        "name": "menuStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "方形",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆形",
+                                "icon": "icondayuanjiao"
+                            }
+                        ]
+                    },
+                    "number": {
+                        "title": "显示个数",
+                        "name": "number",
+                        "type": 2,
+                        "list": [
+                            {
+                                "val": "3个",
+                                "icon": "icon3ge"
+                            },
+                            {
+                                "val": "4个",
+                                "icon": "icon4ge1"
+                            },
+                            {
+                                "val": "5个",
+                                "icon": "icon5ge1"
+                            }
+                        ]
+                    },
+                    "pointerStyle": {
+                        "title": "指示器样式",
+                        "name": "pointerStyle",
+                        "type": 2,
+                        "list": [
+                            {
+                                "val": "长条",
+                                "icon": "iconSquarepoint"
+                            },
+                            {
+                                "val": "圆形",
+                                "icon": "iconDot"
+                            },
+                            {
+                                "val": "无指示器",
+                                "icon": "iconjinyong"
+                            }
+                        ]
+                    },
+                    "bgStyle": {
+                        "title": "背景样式",
+                        "name": "bgStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "menuConfig": {
+                        "title": "最多可添加1张图片，建议宽度90 * 90px",
+                        "maxList": 100,
+                        "list": [
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/d1955202409181714288922.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "全部商品",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/goods_cate\/goods_cate",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/1163f202409181714543016.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "新闻资讯",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/extension\/news_list\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/48d1f202409181714264833.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "领优惠券",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/users\/user_get_coupon\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/e2fcc202409181714264154.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "助力砍价",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/activity\/goods_bargain\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/7b27d202409181714547107.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "精品推荐",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/columnGoods\/HotNewGoods\/index?type=1&name=精品推荐",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/33463202409181714243843.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "用户足迹",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/users\/visit_list\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/f4a46202409181714275277.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "限时秒杀",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/activity\/goods_seckill\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/c6821202409181714257564.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "团长返佣",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/users\/user_sgin\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/0e159202409181714244460.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "幸运转盘",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/goods\/lottery\/grids\/index?type=1",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/90033202409181714262236.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "积分商城",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/points_mall\/index",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "pointerColor": {
+                        "title": "指示器颜色",
+                        "name": "pointerColor",
+                        "default": [
+                            {
+                                "item": "#f44"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#f44"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(255, 255, 255, 1)"
+                            }
+                        ]
+                    },
+                    "titleColor": {
+                        "title": "文字颜色",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#333333"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(51,51,51,1)"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "id": "id1732841638002004"
+                },
+                "1732841638002005": {
+                    "name": "activeParty",
+                    "timestamp": 1732841638002005,
+                    "setUp": {
+                        "tabVal": 0
+                    },
+                    "titleConfig": {
+                        "title": "促销标题",
+                        "value": "超值爆款",
+                        "place": "请输入标题",
+                        "max": 10
+                    },
+                    "desConfig": {
+                        "title": "促销简介",
+                        "value": "美好生活由此开始",
+                        "place": "请输入简介",
+                        "max": 8
+                    },
+                    "menuConfig": {
+                        "title": "最多可添加4个版块，图片建议尺寸140 * 140px；鼠标拖拽左侧圆点可 调整版块顺序",
+                        "maxList": 4,
+                        "list": [
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/f8484680aaf4ebfc7d8b7a49fcf00a7e.jpg",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "今日推荐",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "value": "店主诚意推荐 品质商品",
+                                        "tips": "选填，不超过20个字",
+                                        "max": 20
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/columnGoods\/HotNewGoods\/index?type=1&name=精品推荐",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/889381434ac6542908957b6ebd7d7e0f.jpg",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "热门榜单",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "value": "店主诚意推荐 品质商品",
+                                        "tips": "选填，不超过20个字",
+                                        "max": 20
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/columnGoods\/HotNewGoods\/index?type=2&name=热门榜单",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/62b7fee45ee6f8f319b333f1503bb7d8.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "首发新品",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "value": "新品上架等 你来拿",
+                                        "tips": "选填，不超过20个字",
+                                        "max": 20
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/columnGoods\/HotNewGoods\/index?type=3&name=首发新品",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            },
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/07\/20240719\/122d9e39764ed18ff4a63eb116665271.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "促销单品",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "value": "综合评选好 产品",
+                                        "tips": "选填，不超过20个字",
+                                        "max": 20
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/columnGoods\/HotNewGoods\/index?type=4&name=促销单品",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "themeColor": {
+                        "title": "主题颜色",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#fc3c3e"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fc3c3e"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "标签背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ]
+                    },
+                    "boxColor": {
+                        "title": "背景颜色",
+                        "name": "boxColor",
+                        "default": [
+                            {
+                                "item": "#ffe5e3"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#ffe5e3"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "id": "id1732841638002005"
+                },
+                "1732841638002006": {
+                    "name": "coupon",
+                    "timestamp": 1732841638002006,
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "default": [
+                            {
+                                "item": "#F8F8F8"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(255, 255, 255, 1)"
+                            }
+                        ]
+                    },
+                    "bgStyle": {
+                        "title": "背景样式",
+                        "name": "bgStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "themeColor": {
+                        "title": "主题颜色",
+                        "default": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "id": "id1732841638002006"
+                },
+                "1732841638002007": {
+                    "cname": "热区",
+                    "name": "hotspot",
+                    "timestamp": 1732841638002007,
+                    "isHide": "",
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "titleLeft": "内容设置",
+                    "titleRight": "通用样式",
+                    "picStyle": {
+                        "url": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/09\/c9941202409031052121139.png",
+                        "list": [
+                            {
+                                "number": 1,
+                                "starX": 33,
+                                "starY": 80,
+                                "areaWidth": 133,
+                                "areaHeight": 147,
+                                "nowImgWidth": 750,
+                                "link": "\/pages\/annex\/special\/index?id=475"
+                            },
+                            {
+                                "number": 2,
+                                "starX": 175,
+                                "starY": 86,
+                                "areaWidth": 125,
+                                "areaHeight": 145,
+                                "nowImgWidth": 750,
+                                "link": "\/pages\/annex\/special\/index?id=470"
+                            },
+                            {
+                                "number": 3,
+                                "starX": 311,
+                                "starY": 96,
+                                "areaWidth": 124,
+                                "areaHeight": 131,
+                                "nowImgWidth": 750,
+                                "link": "\/pages\/annex\/special\/index?id=477"
+                            },
+                            {
+                                "number": 4,
+                                "starX": 448,
+                                "starY": 95,
+                                "areaWidth": 128,
+                                "areaHeight": 127,
+                                "nowImgWidth": 750,
+                                "link": "\/pages\/annex\/special\/index?id=476"
+                            },
+                            {
+                                "number": 5,
+                                "starX": 587,
+                                "starY": 90,
+                                "areaWidth": 126,
+                                "areaHeight": 132,
+                                "nowImgWidth": 750,
+                                "link": "\/pages\/annex\/special\/index?id=474"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "id": "id1732841638002007"
+                },
+                "1732841638002008": {
+                    "name": "seckill",
+                    "timestamp": 1732841638002008,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "countDownColor": {
+                        "title": "倒计时背景色",
+                        "name": "countDownColor",
+                        "default": [
+                            {
+                                "item": "rgba(252,60,62,0.09)"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(252,60,62,0.09)"
+                            }
+                        ]
+                    },
+                    "themeColor": {
+                        "title": "主题风格",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ]
+                    },
+                    "conStyle": {
+                        "title": "背景样式",
+                        "name": "conStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "priceShow": {
+                        "title": "是否显示价格",
+                        "val": 1
+                    },
+                    "discountShow": {
+                        "title": "是否显示折扣标签",
+                        "val": 1
+                    },
+                    "titleShow": {
+                        "title": "是否显示名称",
+                        "val": 1
+                    },
+                    "seckillShow": {
+                        "title": "抢购标签",
+                        "val": 1
+                    },
+                    "numberConfig": {
+                        "val": 3
+                    },
+                    "lrConfig": {
+                        "title": "左右边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "imgConfig": {
+                        "title": "最多可添加1张图片，建议宽度18 * 18px",
+                        "url": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/05\/20240530\/870bb6aee5e34fc4988d3affab9e65db.png"
+                    },
+                    "id": "id1732841638002008"
+                },
+                "1732841638002009": {
+                    "name": "bargain",
+                    "timestamp": 1732841638002009,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "numConfig": {
+                        "val": 3
+                    },
+                    "priceShow": {
+                        "title": "是否显示价格",
+                        "val": 1
+                    },
+                    "bntShow": {
+                        "title": "是否显示按钮",
+                        "val": 1
+                    },
+                    "themeColor": {
+                        "title": "主题风格",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ]
+                    },
+                    "titleColor": {
+                        "title": "标题颜色",
+                        "name": "txtColor",
+                        "default": [
+                            {
+                                "item": "#FF6000"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(255,152,0,1)"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#FDDBB2"
+                            },
+                            {
+                                "item": "#FDEFC6"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(253, 219, 178, 1)"
+                            },
+                            {
+                                "item": "#FDEFC6"
+                            }
+                        ]
+                    },
+                    "bgStyle": {
+                        "title": "背景样式",
+                        "name": "bgStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "productGap": {
+                        "title": "商品间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "mbCongfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "id": "id1732841638002009"
+                },
+                "1732841638002010": {
+                    "name": "combination",
+                    "timestamp": 1732841638002010,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "numConfig": {
+                        "val": 3
+                    },
+                    "priceShow": {
+                        "title": "是否显示价格",
+                        "val": 1
+                    },
+                    "bntShow": {
+                        "title": "是否显示按钮",
+                        "val": 1
+                    },
+                    "titleShow": {
+                        "title": "是否显示名称",
+                        "val": 1
+                    },
+                    "pinkShow": {
+                        "title": "是否显示拼团标签",
+                        "val": 0
+                    },
+                    "joinShow": {
+                        "title": "是否显示参团标签",
+                        "val": 1
+                    },
+                    "txtColor": {
+                        "title": "文字背景色",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "rgba(255,68,68,0.1)"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(252, 60, 62, 1)"
+                            }
+                        ]
+                    },
+                    "conStyle": {
+                        "title": "背景样式",
+                        "name": "conStyle",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            },
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "prConfig": {
+                        "title": "背景边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "themeColor": {
+                        "title": "主题风格",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#E93323"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "lrConfig": {
+                        "title": "左右边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "imgConfig": {
+                        "title": "最多可添加1张图片，建议宽度18 * 18px",
+                        "url": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/05\/20240530\/1a16d2148cee5b657851e89a8877059d.png"
+                    },
+                    "id": "id1732841638002010"
+                },
+                "1732841638002011": {
+                    "name": "promotionList",
+                    "timestamp": 1732841638002011,
+                    "setUp": {
+                        "tabVal": 1
+                    },
+                    "productList": {
+                        "title": "促销列表",
+                        "list": [
+                            {
+                                "id": 92,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_e0d7e6e39794632f944ff6e63c727a2e.png",
+                                "store_name": "绣球永生花网红干花花束大束超大拍照室内客厅鲜花ins干花真花带花瓶干花套装组合装饰家居摆设加花瓶套装",
+                                "store_info": "绣球永生花网红干花花束大束超大拍照室内客厅鲜花ins干花真花带花瓶干花套装组合装饰家居摆设加花瓶套装 单支浅兰永生绣球花，杆长55厘米",
+                                "cate_id": "7",
+                                "price": "149.00",
+                                "ot_price": "130.00",
+                                "sales": "286",
+                                "unit_name": "件",
+                                "sort": 555,
+                                "activity": [],
+                                "stock": 10584,
+                                "vip_price": 0,
+                                "is_vip": 1,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 92
+                                    }
+                                ],
+                                "checkCoupon": true
+                            },
+                            {
+                                "id": 91,
+                                "image": "\/\/img.alicdn.com\/imgextra\/i2\/81420182\/O1CN01i7KBzG1DDOnZWDoqU_!!81420182.jpg",
+                                "store_name": "CHICVEN「摩登工业」科技感反光渐变羽绒服立领面包服外套女冬季",
+                                "store_info": "",
+                                "cate_id": "7",
+                                "price": "1.00",
+                                "ot_price": "649.00",
+                                "sales": "4292",
+                                "unit_name": "扎",
+                                "sort": 447,
+                                "activity": [],
+                                "stock": 23654,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 127,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 91
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 91
+                                    }
+                                ],
+                                "checkCoupon": true
+                            },
+                            {
+                                "id": 85,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2021\/09\/03\/mid_c4d09ac13d579f5860ced44f8fb86c69.jpg",
+                                "store_name": "兰斯高支棉加德绒保暖衣冬天保暖神器",
+                                "store_info": "兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣兰斯高支棉保暖衣",
+                                "cate_id": "592",
+                                "price": "99.00",
+                                "ot_price": "88.00",
+                                "sales": "142",
+                                "unit_name": "套",
+                                "sort": 445,
+                                "activity": [],
+                                "stock": 879,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 85
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 85
+                                    }
+                                ],
+                                "checkCoupon": true
+                            },
+                            {
+                                "id": 57,
+                                "image": "https:\/\/demo26.crmeb.net\/uploads\/attach\/2020\/10\/14\/fdc9e113d931946940b7c5adb512a805.jpg",
+                                "store_name": "小米家保温杯云米电热杯茶杯水杯旅行便携式烧水壶真空304不锈钢电热水壶智能恒温保温杯400ML 云米电热水杯",
+                                "store_info": "小米家保温杯云米电热杯茶杯水杯旅行便携式烧水壶真空304不锈钢电热水壶智能恒温保温杯400ML 云米电热水杯",
+                                "cate_id": "7",
+                                "price": "100.00",
+                                "ot_price": "200.00",
+                                "sales": "2774",
+                                "unit_name": "件",
+                                "sort": 444,
+                                "activity": [],
+                                "stock": 274,
+                                "vip_price": 0,
+                                "is_vip": 1,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 127,
+                                        "product_id": 57
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 57
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 116,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_35ef702a495a7c69fe6988a18a30bbb7.png",
+                                "store_name": "爱奇艺智能 奇遇LT01 投影仪 家用卧室超高清手机便携投影机（4K超清 支持侧投 手机同屏 华为一碰即投）",
+                                "store_info": "爱奇艺智能 奇遇LT01 投影仪 家用卧室超高清手机便携投影机（4K超清 支持侧投 手机同屏 华为一碰即投）",
+                                "cate_id": "7,16",
+                                "price": "44.00",
+                                "ot_price": "2.00",
+                                "sales": "131",
+                                "unit_name": "件",
+                                "sort": 222,
+                                "activity": [],
+                                "stock": 6336,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 116
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 96,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_f793e7cadbe3b98d86ae313d8223e4e6.jpg",
+                                "store_name": "MIUCHO可爱卡通学生通勤手提电脑包13.3寸14寸女适用苹果联想小米",
+                                "store_info": "",
+                                "cate_id": "79",
+                                "price": "158.00",
+                                "ot_price": "185.00",
+                                "sales": "5412",
+                                "unit_name": "件",
+                                "sort": 102,
+                                "activity": [],
+                                "stock": 1453,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 96
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 95,
+                                "image": "\/\/img.alicdn.com\/imgextra\/i1\/1851689564\/O1CN013rgTUQ2KWMcSN5Wvp_!!1851689564.jpg",
+                                "store_name": "陈以二原创油画棒手机壳 | 芥末奶油天空 透明边硅胶软壳iphone13",
+                                "store_info": "",
+                                "cate_id": "40",
+                                "price": "249.00",
+                                "ot_price": "219.00",
+                                "sales": "210",
+                                "unit_name": "件",
+                                "sort": 101,
+                                "activity": [],
+                                "stock": 1618,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 95
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 95
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 916,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/06\/21\/mid_3875b87891b414270847197ff935f476.jpg",
+                                "store_name": "戴森（DYSON）新品DysonHD15 吹风机 Supersonic家用负离子 HD15藏青铜色",
+                                "store_info": "戴森（DYSON）新品DysonHD15 吹风机 Supersonic家用负离子 HD15藏青铜色",
+                                "cate_id": "8",
+                                "price": "6999.00",
+                                "ot_price": "6999.00",
+                                "sales": "7009",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 6989,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 915,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/06\/21\/mid_18230d6f22cd8b9099615964b97c40e2.jpg",
+                                "store_name": "Jupiter & Venus一池睡莲香薰礼盒星座专属香氛伴手礼生日礼物情人送女友送闺蜜",
+                                "store_info": "Jupiter & Venus一池睡莲香薰礼盒星座专属香氛伴手礼生日礼物情人送女友送闺蜜",
+                                "cate_id": "27",
+                                "price": "199.00",
+                                "ot_price": "299.00",
+                                "sales": "36",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 93156,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 913,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/06\/21\/mid_8cf199daa8867b0ba5830f33475e0544.png",
+                                "store_name": "米维卡MIVICA现代意式轻奢梳妆台卧室高级感主卧化妆桌收纳S1新品 MIVICA·木面妆台",
+                                "store_info": "米维卡MIVICA现代意式轻奢梳妆台卧室高级感主卧化妆桌收纳S1新品 MIVICA·木面妆台",
+                                "cate_id": "7,26",
+                                "price": "9898.00",
+                                "ot_price": "9999.00",
+                                "sales": "82",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 19770,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 912,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/02\/mid_aab7b26af504523ca7ba6df74987ffa5.jpg",
+                                "store_name": "真力时（ZENITH）【肖战同款】瑞士手表DEFY系列 SKYLINE天际机械表节日礼物 天际腕表ICE BLUE",
+                                "store_info": "真力时（ZENITH）【肖战同款】瑞士手表DEFY系列 SKYLINE天际机械表节日礼物 天际腕表ICE BLUE",
+                                "cate_id": "8,81",
+                                "price": "68600.00",
+                                "ot_price": "68600.00",
+                                "sales": "53",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 69947,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 912
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 912
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 912
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 912
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 112,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_a99bf9f1b2f1385ab33d719396e2afc4.png",
+                                "store_name": "Kangol官方袋鼠TROPIC 504羊毛贝雷帽男女秋冬刺绣潮牌黑色反戴帽",
+                                "store_info": "Kangol官方袋鼠TROPIC 504羊毛贝雷帽男女秋冬刺绣潮牌黑色反戴帽",
+                                "cate_id": "99",
+                                "price": "289.00",
+                                "ot_price": "309.00",
+                                "sales": "1564",
+                                "unit_name": "顶",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 95,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 112
+                                    },
+                                    {
+                                        "product_score": 1,
+                                        "product_id": 112
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 108,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_91dc5e39cc652020bc506ac9fd1c46a2.jpg",
+                                "store_name": "FOMIX 蛋壳椅 进口头层牛皮橙色单人沙发椅Egg chair设计师蛋椅  Egg chair\/意大利头层牛皮\/单椅",
+                                "store_info": "FOMIX 蛋壳椅 进口头层牛皮橙色单人沙发椅Egg chair设计师蛋椅  Egg chair\/意大利头层牛皮\/单椅",
+                                "cate_id": "22",
+                                "price": "7580.00",
+                                "ot_price": "7999.00",
+                                "sales": "117",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 16636,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 108
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 107,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_2b065b14fe01d91b9a49745dd11d16d9.jpg",
+                                "store_name": "密度家居现代简约橘粉色玻璃花器摆件创意客厅餐桌花艺术陈设装饰",
+                                "store_info": "密度家居现代简约橘粉色玻璃花器摆件创意客厅餐桌花艺术陈设装饰",
+                                "cate_id": "24,34",
+                                "price": "99.00",
+                                "ot_price": "159.00",
+                                "sales": "348",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 2319,
+                                "vip_price": 0,
+                                "is_vip": 1,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 107
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 107
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 105,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_bacbb6c3e4ea7913c09b4734a6d86f8d.png",
+                                "store_name": "Upany悠伴智能无烟无油可视空气炸锅 4L 雾霭蓝",
+                                "store_info": "",
+                                "cate_id": "10,11,13,35",
+                                "price": "299.00",
+                                "ot_price": "359.00",
+                                "sales": "35",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 11,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 105
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 105
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 101,
+                                "image": "https:\/\/v5.crmeb.net\/uploads\/attach\/2024\/02\/20240202\/mid_8cd6c9003f0ab68ef76dfdba21736443.jpg",
+                                "store_name": "茵曼羽绒服女2021年新款冬季宽松保暖防风白鸭绒短款时尚外套洋气",
+                                "store_info": "经典的立领设计，宽松版型休闲",
+                                "cate_id": "98",
+                                "price": "599.00",
+                                "ot_price": "799.00",
+                                "sales": "159",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 7964,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 101
+                                    },
+                                    {
+                                        "product_score": 2,
+                                        "product_id": 101
+                                    },
+                                    {
+                                        "product_score": 4,
+                                        "product_id": 101
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 59,
+                                "image": "https:\/\/demo26.crmeb.net\/uploads\/attach\/2020\/10\/14\/6c2338ffd2dd6def7b72ba8fceb2bf6f.jpg",
+                                "store_name": "米家 小米加湿器卧室家用办公室桌面 婴儿静音空气加湿 UV-C杀菌 4.5L大容量 上加水 智能恒湿S",
+                                "store_info": "米家 小米加湿器卧室家用办公室桌面 婴儿静音空气加湿 UV-C杀菌 4.5L大容量 上加水 智能恒湿S",
+                                "cate_id": "10,41",
+                                "price": "120.00",
+                                "ot_price": "122.00",
+                                "sales": "20331",
+                                "unit_name": "件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 46949,
+                                "vip_price": 0,
+                                "is_vip": 1,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 2,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 3,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 59
+                                    }
+                                ],
+                                "checkCoupon": false
+                            },
+                            {
+                                "id": 26,
+                                "image": "https:\/\/demo26.crmeb.net\/uploads\/attach\/2020\/04\/24\/7092e35b87c2849b5f7c48b3e8175f98.jpg",
+                                "store_name": "【超品预售】TOMFORD汤姆福特唇膏4色TF口红黑管套装礼盒16",
+                                "store_info": "【超品预售】TOMFORD汤姆福特唇膏4色TF口红黑管套装礼盒16",
+                                "cate_id": "32,30",
+                                "price": "299.00",
+                                "ot_price": "299.00",
+                                "sales": "3921",
+                                "unit_name": "1件",
+                                "sort": 0,
+                                "activity": [],
+                                "stock": 9886,
+                                "vip_price": 0,
+                                "is_vip": 0,
+                                "couponId": [],
+                                "star": [
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 26
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 26
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 26
+                                    },
+                                    {
+                                        "product_score": 5,
+                                        "product_id": 26
+                                    }
+                                ],
+                                "checkCoupon": false
+                            }
+                        ]
+                    },
+                    "titleConfig": {
+                        "title": "标题位置",
+                        "type": 2,
+                        "list": [
+                            {
+                                "val": "居左",
+                                "icon": "icondoc_left"
+                            },
+                            {
+                                "val": "居中",
+                                "icon": "icondoc_center"
+                            },
+                            {
+                                "val": "居右",
+                                "icon": "icondoc_right"
+                            }
+                        ]
+                    },
+                    "titleShow": {
+                        "title": "是否显示商品名称",
+                        "val": 1
+                    },
+                    "opriceShow": {
+                        "title": "是否显示商品原价",
+                        "val": 1
+                    },
+                    "priceShow": {
+                        "title": "是否显示商品价格",
+                        "val": 1
+                    },
+                    "couponShow": {
+                        "title": "是否显示优惠券",
+                        "val": 1
+                    },
+                    "tabConfig": {
+                        "title": "最多可添加4个版块；鼠标拖拽左侧圆点可调整版块顺序",
+                        "max": 4,
+                        "tabCur": 0,
+                        "list": [
+                            {
+                                "chiild": [
+                                    {
+                                        "title": "标题",
+                                        "val": "首发新品",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "val": "最新出炉",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    }
+                                ],
+                                "link": {
+                                    "title": "链接",
+                                    "activeVal": 3,
+                                    "optiops": [
+                                        {
+                                            "type": 0,
+                                            "value": 1,
+                                            "label": "精品推荐"
+                                        },
+                                        {
+                                            "type": 1,
+                                            "value": 2,
+                                            "label": "热门榜单"
+                                        },
+                                        {
+                                            "type": 2,
+                                            "value": 3,
+                                            "label": "首发新品"
+                                        },
+                                        {
+                                            "type": 3,
+                                            "value": 4,
+                                            "label": "促销单品"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "chiild": [
+                                    {
+                                        "title": "标题",
+                                        "val": "精品推荐",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "val": "猜你喜欢",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    }
+                                ],
+                                "link": {
+                                    "title": "链接",
+                                    "activeVal": 1,
+                                    "optiops": [
+                                        {
+                                            "type": 0,
+                                            "value": 1,
+                                            "label": "精品推荐"
+                                        },
+                                        {
+                                            "type": 1,
+                                            "value": 2,
+                                            "label": "热门榜单"
+                                        },
+                                        {
+                                            "type": 2,
+                                            "value": 3,
+                                            "label": "首发新品"
+                                        },
+                                        {
+                                            "type": 3,
+                                            "value": 4,
+                                            "label": "促销单品"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "chiild": [
+                                    {
+                                        "title": "标题",
+                                        "val": "热门榜单",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "val": "好评如云",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    }
+                                ],
+                                "link": {
+                                    "title": "链接",
+                                    "activeVal": 2,
+                                    "optiops": [
+                                        {
+                                            "type": 0,
+                                            "value": 1,
+                                            "label": "精品推荐"
+                                        },
+                                        {
+                                            "type": 1,
+                                            "value": 2,
+                                            "label": "热门榜单"
+                                        },
+                                        {
+                                            "type": 2,
+                                            "value": 3,
+                                            "label": "首发新品"
+                                        },
+                                        {
+                                            "type": 3,
+                                            "value": 4,
+                                            "label": "促销单品"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "chiild": [
+                                    {
+                                        "title": "标题",
+                                        "val": "促销单品",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    },
+                                    {
+                                        "title": "简介",
+                                        "val": "多买多销",
+                                        "max": 4,
+                                        "pla": "选填，不超过四个字"
+                                    }
+                                ],
+                                "link": {
+                                    "title": "链接",
+                                    "activeVal": 4,
+                                    "optiops": [
+                                        {
+                                            "type": 0,
+                                            "value": 1,
+                                            "label": "精品推荐"
+                                        },
+                                        {
+                                            "type": 1,
+                                            "value": 2,
+                                            "label": "热门榜单"
+                                        },
+                                        {
+                                            "type": 2,
+                                            "value": 3,
+                                            "label": "首发新品"
+                                        },
+                                        {
+                                            "type": 3,
+                                            "value": 4,
+                                            "label": "促销单品"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "themeColor": {
+                        "title": "主题风格",
+                        "name": "themeColor",
+                        "default": [
+                            {
+                                "item": "#F95429"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F95429"
+                            }
+                        ]
+                    },
+                    "fontColor": {
+                        "title": "价格颜色",
+                        "name": "fontColor",
+                        "default": [
+                            {
+                                "item": "#e93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "rgba(253,80,47,1)"
+                            }
+                        ]
+                    },
+                    "labelColor": {
+                        "title": "活动标签",
+                        "name": "labelColor",
+                        "default": [
+                            {
+                                "item": "#e93323"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#e93323"
+                            }
+                        ]
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "numConfig": {
+                        "val": 100
+                    },
+                    "id": "id1732841638002011"
+                },
+                "1732841638002012": {
+                    "name": "swiperBg",
+                    "timestamp": 1732841638002012,
+                    "setUp": {
+                        "tabVal": 0
+                    },
+                    "swiperConfig": {
+                        "title": "最多可添加10张图片，建议宽度750px；鼠标拖拽左侧圆点可调整图片 顺序",
+                        "maxList": 10,
+                        "list": [
+                            {
+                                "img": "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/5f370202411081007008057.png",
+                                "info": [
+                                    {
+                                        "title": "标题",
+                                        "value": "今日推荐",
+                                        "tips": "选填，不超过4个字",
+                                        "max": 4
+                                    },
+                                    {
+                                        "title": "链接",
+                                        "value": "\/pages\/annex\/special\/index?id=477",
+                                        "tips": "请输入链接",
+                                        "max": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "isShow": {
+                        "title": "是否显示背景色",
+                        "val": 0
+                    },
+                    "bgColor": {
+                        "title": "背景颜色(渐变)",
+                        "default": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F62C2C"
+                            },
+                            {
+                                "item": "#F96E29"
+                            }
+                        ]
+                    },
+                    "dotColor": {
+                        "title": "指示器颜色",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "lrConfig": {
+                        "title": "左右边距",
+                        "val": 10,
+                        "min": 0
+                    },
+                    "mbConfig": {
+                        "title": "页面间距",
+                        "val": 0,
+                        "min": 0
+                    },
+                    "docConfig": {
+                        "cname": "swiper",
+                        "title": "指示器样式",
+                        "type": 3,
+                        "list": [
+                            {
+                                "val": "圆形",
+                                "icon": "iconDot"
+                            },
+                            {
+                                "val": "直线",
+                                "icon": "iconSquarepoint"
+                            },
+                            {
+                                "val": "数字",
+                                "icon": "iconshuzi"
+                            },
+                            {
+                                "val": "无指示器",
+                                "icon": "iconjinyong"
+                            }
+                        ]
+                    },
+                    "txtStyle": {
+                        "title": "指示器位置",
+                        "type": 0,
+                        "list": [
+                            {
+                                "val": "居左",
+                                "icon": "icondoc_left"
+                            },
+                            {
+                                "val": "居中",
+                                "icon": "icondoc_center"
+                            },
+                            {
+                                "val": "居右",
+                                "icon": "icondoc_right"
+                            }
+                        ]
+                    },
+                    "imgConfig": {
+                        "cname": "docStyle",
+                        "title": "轮播图样式",
+                        "type": 1,
+                        "list": [
+                            {
+                                "val": "圆角",
+                                "icon": "iconPic_fillet"
+                            },
+                            {
+                                "val": "直角",
+                                "icon": "iconPic_square"
+                            }
+                        ]
+                    },
+                    "id": "id1732841638002012"
+                },
+                "1732841638002013": {
+                    "name": "blankPage",
+                    "timestamp": 1732841638002013,
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#f5f5f5"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#f5f5f5"
+                            }
+                        ]
+                    },
+                    "heightConfig": {
+                        "title": "组件高度",
+                        "val": 10,
+                        "min": 1
+                    },
+                    "id": "id1732841638002013"
+                },
+                "1734311932473000": {
+                    "name": "pageFoot",
+                    "setUp": {
+                        "tabVal": 0
+                    },
+                    "status": {
+                        "title": "是否自定义",
+                        "name": "status",
+                        "status": ""
+                    },
+                    "txtColor": {
+                        "title": "文字颜色",
+                        "name": "txtColor",
+                        "default": [
+                            {
+                                "item": "#282828"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#282828"
+                            }
+                        ]
+                    },
+                    "activeTxtColor": {
+                        "title": "选中文字颜色",
+                        "name": "txtColor",
+                        "default": [
+                            {
+                                "item": "#F62C2C"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#F62C2C"
+                            }
+                        ]
+                    },
+                    "bgColor": {
+                        "title": "背景颜色",
+                        "name": "bgColor",
+                        "default": [
+                            {
+                                "item": "#fff"
+                            }
+                        ],
+                        "color": [
+                            {
+                                "item": "#fff"
+                            }
+                        ]
+                    },
+                    "menuList": [
+                        {
+                            "imgList": [
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/7fdad202411281051176343.png",
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/bcd18202411281051167804.png"
+                            ],
+                            "name": "首页",
+                            "link": "\/pages\/index\/index"
+                        },
+                        {
+                            "imgList": [
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/2282b202411281051157561.png",
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/358fa202411281051146464.png"
+                            ],
+                            "name": "分类",
+                            "link": "\/pages\/goods_cate\/goods_cate"
+                        },
+                        {
+                            "imgList": [
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/1076c202411281051167886.png",
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/111c4202411281051158322.png"
+                            ],
+                            "name": "购物车",
+                            "link": "\/pages\/order_addcart\/order_addcart"
+                        },
+                        {
+                            "imgList": [
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/edbbb202411281051181425.png",
+                                "https:\/\/crmebbz.oss-cn-hangzhou.aliyuncs.com\/attach\/2024\/11\/0b15f202411281051171488.png"
+                            ],
+                            "name": "我的",
+                            "link": "\/pages\/user\/index"
+                        }
+                    ],
+                    "id": "idundefined"
+                }
+            },
+            "default_value": "{\"1665385357481000\":{\"name\":\"headerSerch\",\"timestamp\":\"1665385357481000\",\"setUp\":{\"tabVal\":0},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272(\\u6e10\\u53d8)\",\"name\":\"bgColor\",\"default\":[{\"item\":\"#F62C2C\"},{\"item\":\"#F96E29\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"},{\"item\":\"rgba(64,209,244,1)\"}]},\"boxStyle\":{\"title\":\"\\u8fb9\\u6846\\u6837\\u5f0f\",\"name\":\"boxStyle\",\"type\":0,\"list\":[{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"},{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"}]},\"txtStyle\":{\"title\":\"\\u6587\\u672c\\u4f4d\\u7f6e\",\"name\":\"txtStyle\",\"type\":1,\"list\":[{\"val\":\"\\u5c45\\u5de6\",\"icon\":\"icondoc_left\"},{\"val\":\"\\u5c45\\u4e2d\",\"icon\":\"icondoc_center\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":8,\"min\":0},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":0,\"min\":0},\"hotWords\":{\"list\":[{\"val\":\"\"}]},\"logoConfig\":{\"type\":1,\"header\":\"\\u8bbe\\u7f6elogo\",\"title\":\"\",\"url\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/10\\\/20221009\\\/7436ee5680bc5d67c46a6017939475e5.png\"},\"id\":\"id1665385357481000\"},\"1665385357481001\":{\"name\":\"swiperBg\",\"timestamp\":\"1665385357481001\",\"setUp\":{\"tabVal\":0},\"swiperConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a010\\u5f20\\u56fe\\u7247\\uff0c\\u5efa\\u8bae\\u5bbd\\u5ea6750px\\uff1b\\u9f20\\u6807\\u62d6\\u62fd\\u5de6\\u4fa7\\u5706\\u70b9\\u53ef\\u8c03\\u6574\\u56fe\\u7247 \\u987a\\u5e8f\",\"maxList\":10,\"list\":[{\"img\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220928\\\/8903e1c331b95263270d1bf558315eea.jpg\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u7535\\u5546\\u793e\\u4ea4\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/goods_cate\\\/goods_cate\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/10\\\/78c7c20211011171437256.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u4eca\\u65e5\\u63a8\\u8350\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/extension\\\/customer_list\\\/chat\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/10\\\/ce66b202110111714168104.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u8d85\\u503c\\u7206\\u6b3e\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/users\\\/user_sgin\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]}]},\"isShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u80cc\\u666f\\u8272\",\"val\":false},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272(\\u6e10\\u53d8)\",\"default\":[{\"item\":\"#F62C2C\"},{\"item\":\"#F96E29\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"},{\"item\":\"rgba(64,209,244,1)\"}]},\"dotColor\":{\"title\":\"\\u6307\\u793a\\u5668\\u989c\\u8272\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"lrConfig\":{\"title\":\"\\u5de6\\u53f3\\u8fb9\\u8ddd\",\"val\":11,\"min\":0},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":10,\"min\":0},\"docConfig\":{\"cname\":\"swiper\",\"title\":\"\\u6307\\u793a\\u5668\\u6837\\u5f0f\",\"type\":0,\"list\":[{\"val\":\"\\u5706\\u5f62\",\"icon\":\"iconDot\"},{\"val\":\"\\u76f4\\u7ebf\",\"icon\":\"iconSquarepoint\"},{\"val\":\"\\u6570\\u5b57\",\"icon\":\"iconshuzi\"},{\"val\":\"\\u65e0\\u6307\\u793a\\u5668\",\"icon\":\"iconjinyong\"}]},\"txtStyle\":{\"title\":\"\\u6307\\u793a\\u5668\\u4f4d\\u7f6e\",\"type\":2,\"list\":[{\"val\":\"\\u5c45\\u5de6\",\"icon\":\"icondoc_left\"},{\"val\":\"\\u5c45\\u4e2d\",\"icon\":\"icondoc_center\"},{\"val\":\"\\u5c45\\u53f3\",\"icon\":\"icondoc_right\"}]},\"imgConfig\":{\"cname\":\"docStyle\",\"title\":\"\\u8f6e\\u64ad\\u56fe\\u6837\\u5f0f\",\"type\":0,\"list\":[{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"},{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"}]},\"id\":\"id1665385357481001\"},\"1665385357481002\":{\"name\":\"news\",\"timestamp\":\"1665385357481002\",\"setUp\":{\"tabVal\":0},\"txtStyle\":{\"title\":\"\\u6587\\u672c\\u4f4d\\u7f6e\",\"name\":\"txtStyle\",\"type\":0,\"list\":[{\"val\":\"\\u5c45\\u5de6\",\"icon\":\"icondoc_left\",\"style\":\"left\"},{\"val\":\"\\u5c45\\u4e2d\",\"icon\":\"icondoc_center\",\"style\":\"center\"},{\"val\":\"\\u5c45\\u53f3\",\"icon\":\"icondoc_right\",\"style\":\"right\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"#fff\"}]},\"txtColor\":{\"title\":\"\\u6587\\u5b57\\u989c\\u8272\",\"default\":[{\"item\":\"#333\"}],\"color\":[{\"item\":\"#333\"}]},\"listConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a010\\u4e2a\\u7248\\u5757\\uff1b\\u9f20\\u6807\\u62d6\\u62fd\\u5de6\\u4fa7\\u5706\\u70b9\\u53ef\\u8c03\\u6574\\u7248\\u5757\\u987a\\u5e8f\",\"max\":10,\"list\":[{\"chiild\":[{\"title\":\"\\u6807\\u9898\",\"val\":\"\\u6807\\u51c6\\u72484.6\\u6b63\\u5f0f\\u53d1\\u5e03\\uff0c\\u5927\\u5bb6\\u5feb\\u6765\\u4f53\\u9a8c\",\"max\":30,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc730\\u4e2a\\u5b57\",\"empty\":true},{\"title\":\"\\u94fe\\u63a5\",\"val\":\"\\\/pages\\\/extension\\\/news_details\\\/index?id=128\",\"max\":200,\"pla\":\"\\u8bf7\\u8f93\\u5165\\u8fde\\u63a5\"}]}],\"tabCur\":0},\"bgStyle\":{\"title\":\"\\u80cc\\u666f\\u6837\\u5f0f\",\"name\":\"bgStyle\",\"type\":1,\"list\":[{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":10,\"min\":0},\"logoConfig\":{\"header\":\"\\u56fe\\u6807\\u8bbe\\u7f6e\",\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a01\\u5f20\\u56fe\\u7247\\uff0c\\u5efa\\u8bae\\u5bbd\\u5ea6130 * 36px\",\"url\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/6d4fe202111181229083421.png\"},\"id\":\"id1665385357481002\"},\"1665385357481003\":{\"name\":\"menus\",\"timestamp\":\"1665385357481003\",\"setUp\":{\"tabVal\":0},\"tabConfig\":{\"title\":\"\\u5c55\\u793a\\u6837\\u5f0f\",\"tabVal\":1,\"type\":1,\"tabList\":[{\"name\":\"\\u5355\\u884c\\u5c55\\u793a\",\"icon\":\"icondanhang\"},{\"name\":\"\\u591a\\u884c\\u5c55\\u793a\",\"icon\":\"iconduohang\"}]},\"rowsNum\":{\"title\":\"\\u663e\\u793a\\u884c\\u6570\",\"name\":\"rowsNum\",\"type\":0,\"list\":[{\"val\":\"2\\u884c\",\"icon\":\"icon2hang\"},{\"val\":\"3\\u884c\",\"icon\":\"icon3hang\"},{\"val\":\"4\\u884c\",\"icon\":\"icon4hang\"}]},\"menuStyle\":{\"title\":\"\\u56fe\\u6807\\u6837\\u5f0f\",\"name\":\"menuStyle\",\"type\":1,\"list\":[{\"val\":\"\\u65b9\\u5f62\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u5f62\",\"icon\":\"icondayuanjiao\"}]},\"number\":{\"title\":\"\\u663e\\u793a\\u4e2a\\u6570\",\"name\":\"number\",\"type\":2,\"list\":[{\"val\":\"3\\u4e2a\",\"icon\":\"icon3ge\"},{\"val\":\"4\\u4e2a\",\"icon\":\"icon4ge1\"},{\"val\":\"5\\u4e2a\",\"icon\":\"icon5ge1\"}]},\"pointerStyle\":{\"title\":\"\\u6307\\u793a\\u5668\\u6837\\u5f0f\",\"name\":\"pointerStyle\",\"type\":2,\"list\":[{\"val\":\"\\u957f\\u6761\",\"icon\":\"iconSquarepoint\"},{\"val\":\"\\u5706\\u5f62\",\"icon\":\"iconDot\"},{\"val\":\"\\u65e0\\u6307\\u793a\\u5668\",\"icon\":\"iconjinyong\"}]},\"bgStyle\":{\"title\":\"\\u80cc\\u666f\\u6837\\u5f0f\",\"name\":\"bgStyle\",\"type\":1,\"list\":[{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"menuConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a01\\u5f20\\u56fe\\u7247\\uff0c\\u5efa\\u8bae\\u5bbd\\u5ea690 * 90px\",\"maxList\":100,\"list\":[{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/02d9e202109101106364468.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u9884\\u7ea6\\u81ea\\u63d0\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/goods_details\\\/index?id=109\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/4a21a202109101106368349.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u9886\\u4f18\\u60e0\\u5238\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/users\\\/user_get_coupon\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220916\\\/d09d2286f960697ab7e1fb9d2595605f.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u7279\\u4ef7\\u9650\\u8d2d\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/goods_details\\\/index?id=116\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/9d74b20210910110637104.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u65b0\\u95fb\\u8d44\\u8baf\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/extension\\\/news_list\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/1c95120210910110636424.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u52a9\\u529b\\u780d\\u4ef7\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/activity\\\/goods_bargain\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/23332202109101106361126.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u9650\\u65f6\\u79d2\\u6740\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/activity\\\/goods_seckill\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/34f81202109101106357549.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u79ef\\u5206\\u5546\\u57ce\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/points_mall\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220916\\\/06c63d52fc6772917540d47076606680.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u56e2\\u957f\\u8fd4\\u4f63\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/activity\\\/goods_combination_details\\\/index?id=23\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220916\\\/e31cdcb6fa7660aee45912ef572cc114.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u7528\\u6237\\u8db3\\u8ff9\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/users\\\/visit_list\\\/index\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/09\\\/f4598202109101106358762.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u5e78\\u8fd0\\u8f6c\\u76d8\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/goods\\\/lottery\\\/grids\\\/index?type=1\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]}]},\"pointerColor\":{\"title\":\"\\u6307\\u793a\\u5668\\u989c\\u8272\",\"name\":\"pointerColor\",\"default\":[{\"item\":\"#f44\"}],\"color\":[{\"item\":\"#f44\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"bgColor\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"#fff\"}]},\"titleColor\":{\"title\":\"\\u6587\\u5b57\\u989c\\u8272\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#333333\"}],\"color\":[{\"item\":\"rgba(51,51,51,1)\"}]},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":12,\"min\":0},\"id\":\"id1665385357481003\"},\"1665385357481004\":{\"name\":\"activeParty\",\"timestamp\":\"1665385357481004\",\"setUp\":{\"tabVal\":1},\"titleConfig\":{\"title\":\"\\u4fc3\\u9500\\u6807\\u9898\",\"value\":\"\\u8d85\\u503c\\u7206\\u6b3e\",\"place\":\"\\u8bf7\\u8f93\\u5165\\u6807\\u9898\",\"max\":10},\"desConfig\":{\"title\":\"\\u4fc3\\u9500\\u7b80\\u4ecb\",\"value\":\"\\u7f8e\\u597d\\u751f\\u6d3b\\u7531\\u6b64\\u5f00\\u59cb\",\"place\":\"\\u8bf7\\u8f93\\u5165\\u7b80\\u4ecb\",\"max\":8},\"menuConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a04\\u4e2a\\u7248\\u5757\\uff0c\\u56fe\\u7247\\u5efa\\u8bae\\u5c3a\\u5bf8140 * 140px\\uff1b\\u9f20\\u6807\\u62d6\\u62fd\\u5de6\\u4fa7\\u5706\\u70b9\\u53ef \\u8c03\\u6574\\u7248\\u5757\\u987a\\u5e8f\",\"maxList\":4,\"list\":[{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/16\\\/216aaf8ea5fdeff2a31a48f3e931ff46.jpg\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u4eca\\u65e5\\u63a8\\u8350\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u7b80\\u4ecb\",\"value\":\"\\u5e97\\u4e3b\\u8bda\\u610f\\u63a8\\u8350 \\u54c1\\u8d28\\u5546\\u54c1\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc720\\u4e2a\\u5b57\",\"max\":20},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/columnGoods\\\/HotNewGoods\\\/index?type=1&name=\\u7cbe\\u54c1\\u63a8\\u8350\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/15\\\/1c72a02ad97f695bd85fa04821b72985.jpg\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u70ed\\u95e8\\u699c\\u5355\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u7b80\\u4ecb\",\"value\":\"\\u5e97\\u4e3b\\u8bda\\u610f\\u63a8\\u8350 \\u54c1\\u8d28\\u5546\\u54c1\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc720\\u4e2a\\u5b57\",\"max\":20},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/columnGoods\\\/HotNewGoods\\\/index?type=2&name=\\u70ed\\u95e8\\u699c\\u5355\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/10\\\/612bb202110121143097664.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u9996\\u53d1\\u65b0\\u54c1\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u7b80\\u4ecb\",\"value\":\"\\u65b0\\u54c1\\u4e0a\\u67b6\\u7b49 \\u4f60\\u6765\\u62ff\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc720\\u4e2a\\u5b57\",\"max\":20},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/columnGoods\\\/HotNewGoods\\\/index?type=3&name=\\u9996\\u53d1\\u65b0\\u54c1\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]},{\"img\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/10\\\/59c17202110130919585671.png\",\"info\":[{\"title\":\"\\u6807\\u9898\",\"value\":\"\\u4fc3\\u9500\\u5355\\u54c1\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc74\\u4e2a\\u5b57\",\"max\":4},{\"title\":\"\\u7b80\\u4ecb\",\"value\":\"\\u7efc\\u5408\\u8bc4\\u9009\\u597d \\u4ea7\\u54c1\",\"tips\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc720\\u4e2a\\u5b57\",\"max\":20},{\"title\":\"\\u94fe\\u63a5\",\"value\":\"\\\/pages\\\/columnGoods\\\/HotNewGoods\\\/index?type=4&name=\\u4fc3\\u9500\\u5355\\u54c1\",\"tips\":\"\\u8bf7\\u8f93\\u5165\\u94fe\\u63a5\",\"max\":100}]}]},\"themeColor\":{\"title\":\"\\u4e3b\\u9898\\u989c\\u8272\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#fc3c3e\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"bgColor\":{\"title\":\"\\u6807\\u7b7e\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"bgColor\",\"default\":[{\"item\":\"#F62C2C\"},{\"item\":\"#F96E29\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"},{\"item\":\"rgba(64,209,244,1)\"}]},\"boxColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"boxColor\",\"default\":[{\"item\":\"#ffe5e3\"}],\"color\":[{\"item\":\"rgba(208,240,255,1)\"}]},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":12,\"min\":0},\"id\":\"id1665385357481004\"},\"1665385357481005\":{\"name\":\"combination\",\"timestamp\":\"1665385357481005\",\"setUp\":{\"tabVal\":1},\"numConfig\":{\"val\":3},\"priceShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u4ef7\\u683c\",\"val\":true},\"bntShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u6309\\u94ae\",\"val\":true},\"titleShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u540d\\u79f0\",\"val\":true},\"pinkShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u62fc\\u56e2\\u6807\\u7b7e\",\"val\":true},\"joinShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u53c2\\u56e2\\u6807\\u7b7e\",\"val\":true},\"txtColor\":{\"title\":\"\\u6587\\u5b57\\u80cc\\u666f\\u8272\",\"name\":\"themeColor\",\"default\":[{\"item\":\"rgba(255,68,68,0.1)\"}],\"color\":[{\"item\":\"rgba(208,240,255,1)\"}]},\"conStyle\":{\"title\":\"\\u80cc\\u666f\\u6837\\u5f0f\",\"name\":\"conStyle\",\"type\":1,\"list\":[{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"#fff\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"themeColor\":{\"title\":\"\\u4e3b\\u9898\\u98ce\\u683c\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#E93323\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":12,\"min\":0},\"lrConfig\":{\"title\":\"\\u5de6\\u53f3\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"imgConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a01\\u5f20\\u56fe\\u7247\\uff0c\\u5efa\\u8bae\\u5bbd\\u5ea618 * 18px\",\"url\":\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/238c5202111181433515309.gif\"},\"id\":\"id1665385357481005\"},\"1665385357481006\":{\"name\":\"bargain\",\"timestamp\":\"1665385357481006\",\"setUp\":{\"tabVal\":1},\"numConfig\":{\"val\":3},\"priceShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u4ef7\\u683c\",\"val\":true},\"bntShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u6309\\u94ae\",\"val\":true},\"themeColor\":{\"title\":\"\\u4e3b\\u9898\\u98ce\\u683c\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#E93323\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"titleColor\":{\"title\":\"\\u6807\\u9898\\u989c\\u8272\",\"name\":\"txtColor\",\"default\":[{\"item\":\"#FF6000\"}],\"color\":[{\"item\":\"rgba(255,152,0,1)\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"bgColor\",\"default\":[{\"item\":\"#FDDBB2\"},{\"item\":\"#FDEFC6\"}],\"color\":[{\"item\":\"#FDDBB2\"},{\"item\":\"#FDEFC6\"}]},\"bgStyle\":{\"title\":\"\\u80cc\\u666f\\u6837\\u5f0f\",\"name\":\"bgStyle\",\"type\":1,\"list\":[{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"productGap\":{\"title\":\"\\u5546\\u54c1\\u95f4\\u8ddd\",\"val\":10,\"min\":0},\"mbCongfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":0,\"min\":0},\"id\":\"id1665385357481006\"},\"1665385357481007\":{\"name\":\"seckill\",\"timestamp\":\"1665385357481007\",\"setUp\":{\"tabVal\":1},\"countDownColor\":{\"title\":\"\\u5012\\u8ba1\\u65f6\\u80cc\\u666f\\u8272\",\"name\":\"countDownColor\",\"default\":[{\"item\":\"rgba(252,60,62,0.09)\"}],\"color\":[{\"item\":\"rgba(255,255,255,0.09)\"}]},\"themeColor\":{\"title\":\"\\u4e3b\\u9898\\u98ce\\u683c\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#E93323\"}],\"color\":[{\"item\":\"rgba(29,176,255,1)\"}]},\"conStyle\":{\"title\":\"\\u80cc\\u666f\\u6837\\u5f0f\",\"name\":\"conStyle\",\"type\":1,\"list\":[{\"val\":\"\\u76f4\\u89d2\",\"icon\":\"iconPic_square\"},{\"val\":\"\\u5706\\u89d2\",\"icon\":\"iconPic_fillet\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"#fff\"}]},\"prConfig\":{\"title\":\"\\u80cc\\u666f\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"priceShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u4ef7\\u683c\",\"val\":true},\"discountShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u6298\\u6263\\u6807\\u7b7e\",\"val\":true},\"titleShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u540d\\u79f0\",\"val\":true},\"seckillShow\":{\"title\":\"\\u62a2\\u8d2d\\u6807\\u7b7e\",\"val\":true},\"numberConfig\":{\"val\":3},\"lrConfig\":{\"title\":\"\\u5de6\\u53f3\\u8fb9\\u8ddd\",\"val\":10,\"min\":0},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":0,\"min\":0},\"imgConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a01\\u5f20\\u56fe\\u7247\\uff0c\\u5efa\\u8bae\\u5bbd\\u5ea618 * 18px\",\"url\":\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220930\\\/e537a7fc631006d3571d7a8574438b03.gif\"},\"id\":\"id1665385357481007\"},\"1665385357481008\":{\"name\":\"promotionList\",\"timestamp\":\"1665385357481008\",\"setUp\":{\"tabVal\":1},\"productList\":{\"title\":\"\\u4fc3\\u9500\\u5217\\u8868\"},\"titleConfig\":{\"title\":\"\\u6807\\u9898\\u4f4d\\u7f6e\",\"type\":2,\"list\":[{\"val\":\"\\u5c45\\u5de6\",\"icon\":\"icondoc_left\"},{\"val\":\"\\u5c45\\u4e2d\",\"icon\":\"icondoc_center\"},{\"val\":\"\\u5c45\\u53f3\",\"icon\":\"icondoc_right\"}]},\"titleShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u5546\\u54c1\\u540d\\u79f0\",\"val\":true},\"opriceShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u5546\\u54c1\\u539f\\u4ef7\",\"val\":true},\"priceShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u5546\\u54c1\\u4ef7\\u683c\",\"val\":true},\"couponShow\":{\"title\":\"\\u662f\\u5426\\u663e\\u793a\\u4f18\\u60e0\\u5238\",\"val\":true},\"tabConfig\":{\"title\":\"\\u6700\\u591a\\u53ef\\u6dfb\\u52a04\\u4e2a\\u7248\\u5757\\uff1b\\u9f20\\u6807\\u62d6\\u62fd\\u5de6\\u4fa7\\u5706\\u70b9\\u53ef\\u8c03\\u6574\\u7248\\u5757\\u987a\\u5e8f\",\"max\":4,\"tabCur\":3,\"list\":[{\"chiild\":[{\"title\":\"\\u6807\\u9898\",\"val\":\"\\u9996\\u53d1\\u65b0\\u54c1\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"},{\"title\":\"\\u7b80\\u4ecb\",\"val\":\"\\u6700\\u65b0\\u51fa\\u7089\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"}],\"link\":{\"title\":\"\\u94fe\\u63a5\",\"activeVal\":3,\"optiops\":[{\"type\":0,\"value\":1,\"label\":\"\\u7cbe\\u54c1\\u63a8\\u8350\"},{\"type\":1,\"value\":2,\"label\":\"\\u70ed\\u95e8\\u699c\\u5355\"},{\"type\":2,\"value\":3,\"label\":\"\\u9996\\u53d1\\u65b0\\u54c1\"},{\"type\":3,\"value\":4,\"label\":\"\\u4fc3\\u9500\\u5355\\u54c1\"}]}},{\"chiild\":[{\"title\":\"\\u6807\\u9898\",\"val\":\"\\u7cbe\\u54c1\\u63a8\\u8350\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"},{\"title\":\"\\u7b80\\u4ecb\",\"val\":\"\\u731c\\u4f60\\u559c\\u6b22\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"}],\"link\":{\"title\":\"\\u94fe\\u63a5\",\"activeVal\":1,\"optiops\":[{\"type\":0,\"value\":1,\"label\":\"\\u7cbe\\u54c1\\u63a8\\u8350\"},{\"type\":1,\"value\":2,\"label\":\"\\u70ed\\u95e8\\u699c\\u5355\"},{\"type\":2,\"value\":3,\"label\":\"\\u9996\\u53d1\\u65b0\\u54c1\"},{\"type\":3,\"value\":4,\"label\":\"\\u4fc3\\u9500\\u5355\\u54c1\"}]}},{\"chiild\":[{\"title\":\"\\u6807\\u9898\",\"val\":\"\\u70ed\\u95e8\\u699c\\u5355\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"},{\"title\":\"\\u7b80\\u4ecb\",\"val\":\"\\u597d\\u8bc4\\u5982\\u4e91\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"}],\"link\":{\"title\":\"\\u94fe\\u63a5\",\"activeVal\":2,\"optiops\":[{\"type\":0,\"value\":1,\"label\":\"\\u7cbe\\u54c1\\u63a8\\u8350\"},{\"type\":1,\"value\":2,\"label\":\"\\u70ed\\u95e8\\u699c\\u5355\"},{\"type\":2,\"value\":3,\"label\":\"\\u9996\\u53d1\\u65b0\\u54c1\"},{\"type\":3,\"value\":4,\"label\":\"\\u4fc3\\u9500\\u5355\\u54c1\"}]}},{\"chiild\":[{\"title\":\"\\u6807\\u9898\",\"val\":\"\\u4fc3\\u9500\\u5355\\u54c1\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"},{\"title\":\"\\u7b80\\u4ecb\",\"val\":\"\\u591a\\u4e70\\u591a\\u9500\",\"max\":4,\"pla\":\"\\u9009\\u586b\\uff0c\\u4e0d\\u8d85\\u8fc7\\u56db\\u4e2a\\u5b57\"}],\"link\":{\"title\":\"\\u94fe\\u63a5\",\"activeVal\":4,\"optiops\":[{\"type\":0,\"value\":1,\"label\":\"\\u7cbe\\u54c1\\u63a8\\u8350\"},{\"type\":1,\"value\":2,\"label\":\"\\u70ed\\u95e8\\u699c\\u5355\"},{\"type\":2,\"value\":3,\"label\":\"\\u9996\\u53d1\\u65b0\\u54c1\"},{\"type\":3,\"value\":4,\"label\":\"\\u4fc3\\u9500\\u5355\\u54c1\"}]}}]},\"themeColor\":{\"title\":\"\\u4e3b\\u9898\\u98ce\\u683c\",\"name\":\"themeColor\",\"default\":[{\"item\":\"#F95429\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"fontColor\":{\"title\":\"\\u4ef7\\u683c\\u989c\\u8272\",\"name\":\"fontColor\",\"default\":[{\"item\":\"#e93323\"}],\"color\":[{\"item\":\"rgba(253,80,47,1)\"}]},\"labelColor\":{\"title\":\"\\u6d3b\\u52a8\\u6807\\u7b7e\",\"name\":\"labelColor\",\"default\":[{\"item\":\"#e93323\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"mbConfig\":{\"title\":\"\\u9875\\u9762\\u95f4\\u8ddd\",\"val\":0,\"min\":0},\"numConfig\":{\"val\":9},\"id\":\"id1665385357481008\"},\"1675843046147000\":{\"name\":\"pageFoot\",\"setUp\":{\"tabVal\":0},\"status\":{\"title\":\"\\u662f\\u5426\\u81ea\\u5b9a\\u4e49\",\"name\":\"status\",\"status\":true},\"txtColor\":{\"title\":\"\\u6587\\u5b57\\u989c\\u8272\",\"name\":\"txtColor\",\"default\":[{\"item\":\"#282828\"}],\"color\":[{\"item\":\"rgba(51,51,51,1)\"}]},\"activeTxtColor\":{\"title\":\"\\u9009\\u4e2d\\u6587\\u5b57\\u989c\\u8272\",\"name\":\"txtColor\",\"default\":[{\"item\":\"#F62C2C\"}],\"color\":[{\"item\":\"rgba(29,176,252,1)\"}]},\"bgColor\":{\"title\":\"\\u80cc\\u666f\\u989c\\u8272\",\"name\":\"bgColor\",\"default\":[{\"item\":\"#fff\"}],\"color\":[{\"item\":\"#fff\"}]},\"menuList\":[{\"imgList\":[\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/bdf25202111181452426458.png\",\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/aaf1b202111181452576658.png\"],\"name\":\"\\u9996\\u9875\",\"link\":\"\\\/pages\\\/index\\\/index\"},{\"imgList\":[\"https:\\\/\\\/crmebbz.oss-cn-hangzhou.aliyuncs.com\\\/uploads\\\/attach\\\/2022\\\/09\\\/20220923\\\/14367a2fecd502f51978ed6ea09afe19.png\",\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/59d4a202111181453208678.png\"],\"name\":\"\\u5206\\u7c7b\",\"link\":\"\\\/pages\\\/goods_cate\\\/goods_cate\"},{\"imgList\":[\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/076ac202111181453294517.png\",\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/201c9202111181453378599.png\"],\"name\":\"\\u8d2d\\u7269\\u8f66\",\"link\":\"\\\/pages\\\/order_addcart\\\/order_addcart\"},{\"imgList\":[\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/f04cf20211118145343755.png\",\"https:\\\/\\\/qiniu.crmeb.net\\\/attach\\\/2021\\\/11\\\/3a141202111181453495771.png\"],\"name\":\"\\u6211\\u7684\",\"link\":\"\\\/pages\\\/user\\\/index\"}],\"id\":\"idundefined\"}}",
+            "add_time": "2021-11-18 12:30:45",
+            "update_time": "2024-12-16 09:18:52",
+            "status": 1,
+            "type": 2,
+            "is_show": 1,
+            "is_bg_color": 1,
+            "is_bg_pic": 0,
+            "color_picker": "#F5F5F5",
+            "bg_pic": "",
+            "bg_tab_val": 0,
+            "is_del": 0,
+            "order_status": 0,
+            "my_banner_status": 0,
+            "is_diy": 1,
+            "title": "首页"
+        }
+    }
+}

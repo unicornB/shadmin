@@ -18,7 +18,7 @@ export class Request {
   }
 
   static successHandler<ResponseData>(response: AxiosResponse) {
-    console.log("successHandler999", response);
+
     const successResult: RequestSuccessResult<ResponseData> = {
       data: response as unknown as ResponseData,
       error: null,
@@ -41,7 +41,7 @@ export class Request {
     return this.instance
       .get(url, config)
       .then((res) => {
-        console.log("successHandler get", res);
+
         return Request.successHandler<ResponseData>(res);
       })
       .catch(Request.failHandler);

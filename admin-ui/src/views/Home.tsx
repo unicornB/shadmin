@@ -112,7 +112,7 @@ const Home: React.FC = () => {
                     <Outlet />
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>
-                    Ant Design ©{new Date().getFullYear()} Created by Ant UED
+                    星辰移动开发平台 ©{new Date().getFullYear()} Created by HYL
                 </Footer>
             </Layout>
         </Layout>

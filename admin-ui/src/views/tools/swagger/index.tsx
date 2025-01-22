@@ -2,7 +2,7 @@ import { Button } from "antd"
 import { useSelector } from "react-redux"
 import { useStoreTrigger } from "@/common/hooks";
 import IconFont from "@/components/IconFont";
-import { fetchGetMenu } from "@/common/service/api";
+// import { fetchGetMenu } from "@/common/service/api";
 // import store from "../store"
 // //获取state 类型
 // type RootState = ReturnType<typeof store.getState>
@@ -18,12 +18,12 @@ const Page1 = () => {
     }
     const asyncAdd2 = async () => {
         StoreTrigger.asyncDispatch({ type: "asyncAddCount", num: 2 });
-        const { data, error } = await fetchGetMenu()
-        if (!error) {
-            console.log(data)
-        } else {
-            console.log(error)
-        }
+        // const { data, error } = await fetchGetMenu()
+        // if (!error) {
+        //     console.log(data)
+        // } else {
+        //     console.log(error)
+        // }
     };
     return (
         <div>

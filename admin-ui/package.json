@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.5.2",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-react": "^1.0.6",
     "ahooks": "^3.8.4",
     "antd": "^5.22.4",
     "axios": "^1.7.9",
+    "copy-to-clipboard": "^3.3.3",
     "echarts": "^5.6.0",
     "form-data": "^4.0.1",
     "qs": "^6.13.1",
@@ -22,9 +25,11 @@
     "react-dom": "^18.3.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
+    "react-sortablejs": "^6.1.4",
     "redux": "^4.2.0",
     "redux-thunk": "^3.1.0",
-    "reset-css": "^5.0.2"
+    "reset-css": "^5.0.2",
+    "sortablejs": "^1.15.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
@@ -32,6 +37,7 @@
     "@types/qs": "^6.9.17",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@types/sortablejs": "^1.15.8",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.15.0",
     "eslint-plugin-react-hooks": "^5.0.0",

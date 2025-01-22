@@ -6,3 +6,4 @@ upload_fail: 上传失败！
 publish_success: 发布成功！
 publish_fail: 发布失败！
 please_upload_file: 请上传文件！
+upload_file_ext_error: 不支持的文件类型！

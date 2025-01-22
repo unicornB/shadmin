@@ -29,6 +29,10 @@ const routes = [
     {
         path: "*",
         element: lazyLoad("views/errPage/404"),
+    },
+    {
+        path: "/diy/page/create",
+        element: lazyLoad("views/diy/create"),
     }
 ]
 export default routes

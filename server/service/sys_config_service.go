@@ -90,3 +90,34 @@ func (service *SysConfigListSerivce) PageList(c *gin.Context) serializer.Respons
 	}
 	return serializer.Success("成功", data)
 }
+
+// 配置模块
+type SysConfigSettingsService struct {
+	ConfigKey   string `json:"configKey" form:"configKey"`
+	ConfigValue string `json:"configValue" form:"configValue"`
+}
+
+// 根据key获取配置
+func (service *SysConfigSettingsService) GetByKey(c *gin.Context) serializer.Response {
+	var config model.SysConfig
+	if err := model.DB.Where("config_key = ?", c.Param("key")).First(&config).Error; err != nil {
+		return serializer.Error("获取失败", err.Error())
+	}
+	return serializer.Success("成功", config)
+}
+
+// 根据key更新配置
+func (service *SysConfigSettingsService) UpdateByKey(c *gin.Context) serializer.Response {
+	var config model.SysConfig
+	if err := model.DB.Where("config_key = ?", service.ConfigKey).First(&config).Error; err != nil {
+		return serializer.Error("该配置不存在", err.Error())
+	}
+	if service.ConfigValue == "" {
+		return serializer.Error("请设置配置值", nil)
+	}
+	config.ConfigValue = service.ConfigValue
+	if err := model.DB.Save(&config).Error; err != nil {
+		return serializer.Error("更新失败", err.Error())
+	}
+	return serializer.Success("更新成功", nil)
+}

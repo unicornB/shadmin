@@ -10,3 +10,8 @@ export enum EnumContentType {
     formUrlencoded = "application/x-www-form-urlencoded",
     formData = "multipart/form-data",
 }
+//系统配置Key
+export enum EnumConfigKeys {
+    AppUserAgreeMent = "app.user.agreement",//用户协议
+    AppPrivacyPolicy = "app.privacy.policy",//隐私政策
+}

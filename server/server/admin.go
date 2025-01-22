@@ -43,6 +43,8 @@ func AdminRouter(admin *gin.RouterGroup) {
 		auth.POST("/config/add", adminapi.SysConfigAdd)
 		auth.PUT("/config/update", adminapi.SysConfigUpdate)
 		auth.DELETE("/config/delete/:id", adminapi.SysConfigDelete)
+		auth.GET("/config/info/:key", adminapi.SysConfigByKey)
+		auth.PUT("/config/updateByKey", adminapi.SysConfigUpdateByKey)
 
 		//素材分类管理
 		auth.POST("/filecate/create", adminapi.SysFileCateCreate)
@@ -50,5 +52,13 @@ func AdminRouter(admin *gin.RouterGroup) {
 		auth.DELETE("/filecate/delete/:id", adminapi.SysFileCateDelete)
 		auth.GET("/filecate/list", adminapi.SysFileCateList)
 
+		//文件上传
+		auth.POST("/file/upload", adminapi.SysUploadFile)
+		auth.POST("/file/upload/video", adminapi.SysUploadVideo)
+		//文件管理
+		auth.GET("/file/page", adminapi.SysFilePage)
+		auth.PUT("/file/rename", adminapi.SysFileReFileName)
+		auth.PUT("/file/move", adminapi.SysFileMove)
+		auth.POST("/file/delete", adminapi.SysFileDelete)
 	}
 }

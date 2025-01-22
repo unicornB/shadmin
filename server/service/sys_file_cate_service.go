@@ -49,20 +49,21 @@ func (service *SysFileCateService) Update(c *gin.Context) serializer.Response {
 
 // delete
 func (service *SysFileCateService) Delete(c *gin.Context) serializer.Response {
+	cateId := c.Param("id")
 	var cate model.SysFileCate
-	res := model.DB.Where("id = ?", service.ID).First(&cate)
+	res := model.DB.Where("id = ?", cateId).First(&cate)
 	if res.RowsAffected == 0 {
 		return serializer.Error("分组不存在", nil)
 	}
 	// 判断是否有子分组
 	var count int64
-	model.DB.Where("parent_id = ?", service.ID).Count(&count)
+	model.DB.Where("parent_id = ?", cateId).Count(&count)
 	if count > 0 {
 		return serializer.Error("该分组下有子分组，无法删除", nil)
 	}
 	//判断是否有文件
 	var fileCount int64
-	model.DB.Model(&model.SysFile{}).Where("cate_id = ?", service.ID).Count(&fileCount)
+	model.DB.Model(&model.SysFile{}).Where("cate_id = ?", cateId).Count(&fileCount)
 	if fileCount > 0 {
 		return serializer.Error("该分组下有文件，无法删除", nil)
 	}

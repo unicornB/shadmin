@@ -7,6 +7,7 @@ import (
 	"io"
 	"shadmin/model"
 	"shadmin/serializer"
+	"strings"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -37,6 +38,7 @@ func Logger() gin.HandlerFunc {
 				clientIP := c.ClientIP()
 				// 路由
 				path := c.Request.URL.Path
+
 				reqBody, _ := io.ReadAll(c.Request.Body)
 				defer c.Request.Body.Close()                            // 关闭
 				c.Request.Body = io.NopCloser(bytes.NewBuffer(reqBody)) // 重置body
@@ -49,6 +51,7 @@ func Logger() gin.HandlerFunc {
 				// 请求后
 				latency := time.Since(t) // 执行时间
 				//jsonParams, _ := json.Marshal(c.Params)
+
 				go func() {
 					//保存操作日志
 					//查询接口名称
@@ -65,11 +68,13 @@ func Logger() gin.HandlerFunc {
 							OptPath:   path,
 							OptIp:     clientIP,
 							OptCode:   returnJson.Code,
-							OptParam:  string(reqBody),
 							OptData:   blw.Body.String(),
 							OptTime:   latency.String(),
 							OptMsg:    returnJson.Msg,
 							OptModule: module,
+						}
+						if !strings.Contains(path, "upload") {
+							optLog.OptParam = string(reqBody)
 						}
 						if err := model.DB.Create(&optLog).Error; err != nil {
 							fmt.Printf("optLog err:%v\n", err)

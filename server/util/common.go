@@ -1,7 +1,11 @@
 package util
 
 import (
+	"crypto/md5"
+	"encoding/hex"
+	"io"
 	"math/rand"
+	"mime/multipart"
 	"reflect"
 	"time"
 )
@@ -40,4 +44,18 @@ func ArrayContainStr(s []string, e string) bool {
 		}
 	}
 	return false
+}
+func FileMD5(file *multipart.FileHeader) (string, error) {
+	src, err := file.Open()
+	if err != nil {
+		return "", err
+	}
+	defer src.Close()
+	// 计算MD5
+	hash := md5.New()
+	if _, err := io.Copy(hash, src); err != nil && err != io.EOF {
+		return "", err
+	}
+	md5Value := hex.EncodeToString(hash.Sum(nil))
+	return md5Value, nil
 }

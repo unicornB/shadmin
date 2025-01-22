@@ -15,5 +15,8 @@ func migration() {
 		&SysOptLog{},
 		&SysFileCate{},
 		&SysFile{},
+		&DiyPage{},
+		&DiyLinkCate{},
+		&DiyLink{},
 	)
 }

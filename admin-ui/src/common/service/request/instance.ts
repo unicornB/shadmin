@@ -12,7 +12,7 @@ import {
   handleBackendError,
 } from "@/common/utils/service";
 import type { BackendServiceResult } from "@/common/typings/service";
-import { getToken } from "@/common/utils/auth";
+import { getToken, removeToken } from "@/common/utils/auth";
 
 export default class RequestInstance {
   instance: AxiosInstance;
@@ -50,10 +50,16 @@ export default class RequestInstance {
         if (status === 200 || status < 300 || status === 304) {
           const backendServiceResult = response.data as BackendServiceResult;
           if (backendServiceResult.code === this.backendSuccessCode) {
-            console.log("backendServiceResult222", backendServiceResult);
             return Promise.resolve(response.data);
           }
-          console.log("backendServiceResult", backendServiceResult);
+          if (backendServiceResult.code === 401) {
+            //退出登录
+            removeToken();
+            setTimeout(() => {
+              window.location.href = "/login";
+            }, 1000);
+          }
+
           const error = handleBackendError(backendServiceResult);
           return Promise.reject(error);
         }

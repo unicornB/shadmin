@@ -1,11 +1,10 @@
 
 import { ExclamationCircleFilled, PlusOutlined, SearchOutlined } from "@ant-design/icons"
-import { Button, Form, Input, message, Modal, Space, Switch, Table, TableProps } from "antd"
+import { Button, Form, Input, message, Modal, Space, Switch, Table, TableProps, Tooltip } from "antd"
 import { useEffect, useRef, useState } from "react"
 import Edit from "./edit"
 import { EditMethods } from "@/common/typings/common"
-import { adminDelete, adminList } from "@/common/service/api/admin"
-import { SysAdmin, SysAdminRequest } from "@/common/typings/sys_admin"
+import { SysAdmin } from "@/common/typings/sys_admin"
 import PermissionButton from "@/components/PermissionButton"
 import { configDel, configList } from "@/common/service/api/config"
 import { SysConfig, SysConfigRequest } from "@/common/typings/sys_config"
@@ -128,7 +127,13 @@ const Page: React.FC = () => {
             title: '参数值',
             dataIndex: 'configValue',
             key: 'configValue',
-
+            render: (_, record) => {
+                return (
+                    <Tooltip placement="top" title={record.configValue}>
+                        <div style={{ maxWidth: 300, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{record.configValue}</div>
+                    </Tooltip>
+                )
+            }
         },
         {
             title: '备注',

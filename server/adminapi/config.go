@@ -45,3 +45,25 @@ func SysConfigPage(c *gin.Context) {
 		c.JSON(200, ErrorResponse(err))
 	}
 }
+
+// 根据key获取系统配置
+func SysConfigByKey(c *gin.Context) {
+	var service service.SysConfigSettingsService
+	if err := c.ShouldBind(&service); err == nil {
+		res := service.GetByKey(c)
+		c.JSON(200, res)
+	} else {
+		c.JSON(200, ErrorResponse(err))
+	}
+}
+
+// 根据key更新系统配置
+func SysConfigUpdateByKey(c *gin.Context) {
+	var service service.SysConfigSettingsService
+	if err := c.ShouldBind(&service); err == nil {
+		res := service.UpdateByKey(c)
+		c.JSON(200, res)
+	} else {
+		c.JSON(200, ErrorResponse(err))
+	}
+}
