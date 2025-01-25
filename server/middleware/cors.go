@@ -16,6 +16,7 @@ func Cors() gin.HandlerFunc {
 	config.AllowMethods = []string{"GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"}
 	config.AllowHeaders = []string{"Origin", "Content-Length", "Content-Type", "Access-Control-Allow-Origin", "Access-Control-Allow-Headers", "Content-Language", "Authorization"}
 	if gin.Mode() == gin.ReleaseMode {
+		fmt.Println("生产环境跨域配置" + os.Getenv("CORS_ALLOW"))
 		// 生产环境需要配置跨域域名，否则403
 		config.AllowOrigins = []string{os.Getenv("CORS_ALLOW")}
 	} else {

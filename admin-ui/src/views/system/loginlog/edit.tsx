@@ -80,6 +80,7 @@ const Page: FC<EditComponentProps> = forwardRef<EditMethods, EditComponentProps>
     const onCheck: TreeProps['onCheck'] = (checkedKeys, { halfCheckedKeys }) => {
         const checkedKeysArray = checkedKeys as React.Key[];
         //let concatTreeData = checkedKeysArray.concat(halfCheckedKeys!)
+        halfCheckedKeys && console.log(halfCheckedKeys)
         setCheckedKeys(checkedKeysArray);
     };
     const getMenus = async (id: number) => {

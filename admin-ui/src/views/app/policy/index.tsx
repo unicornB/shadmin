@@ -1,7 +1,7 @@
 import { Button, Card, Flex, message } from "antd"
 import { Editor, Toolbar } from '@wangeditor/editor-for-react'
 import { IDomEditor, IEditorConfig, IToolbarConfig } from '@wangeditor/editor'
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 import MaterialPicker from "@/components/MaterialPicker"
 import '@wangeditor/editor/dist/css/style.css' // 引入 css
 import { SysFile } from "@/common/typings/sys_file"
@@ -61,6 +61,7 @@ const Page: React.FC = () => {
     }, [editor])
     const [openPicker, setOpenPicker] = useState(false)
     const onCancle = () => {
+        currentEditor && console.log(currentEditor)
         setOpenPicker(false)
     }
     const onSuccess = (files: SysFile[]) => {

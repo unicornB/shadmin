@@ -1,6 +1,6 @@
 
 import { ExclamationCircleFilled, PlusOutlined, SearchOutlined } from "@ant-design/icons"
-import { Button, Form, Input, message, Modal, Space, Switch, Table, TableProps, Tooltip } from "antd"
+import { Button, Form, Input, message, Modal, Space, Table, TableProps, Tooltip } from "antd"
 import { useEffect, useRef, useState } from "react"
 import Edit from "./edit"
 import { EditMethods } from "@/common/typings/common"

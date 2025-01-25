@@ -118,3 +118,6 @@ go test -v ./test
 go test ./test
 ok      shadmin/test      (cached)
 ```
+
+打包
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o shadmin main.go

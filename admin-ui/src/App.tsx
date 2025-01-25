@@ -1,4 +1,4 @@
-import { useLocation, useNavigate, useRoutes, createBrowserRouter, RouterProvider } from "react-router-dom";
+import { useLocation, useNavigate, useRoutes } from "react-router-dom";
 
 
 import routes from "./router";
@@ -8,6 +8,7 @@ import { getButtonPermissions, getMenu, getToken } from "./common/utils/auth";
 import lazyLoad from "./common/utils/router/lazyLoad";
 import { menuTree } from "./common/utils/menu";
 import { useStoreTrigger } from "@/common/hooks";
+import { lazy } from "@loadable/component";
 const App = () => {
   // 去往登录页的组件
   function ToLogin() {
@@ -42,7 +43,7 @@ const App = () => {
       return <ToLogin />;
     }
     let routeList = [...routes]
-    let index = routeList.findIndex((item) => item.path == "/")
+    //let index = routeList.findIndex((item) => item.path == "/")
     let menu = getMenu()
     //按钮权限状态设置
     let permissions = getButtonPermissions(menu)
@@ -56,16 +57,19 @@ const App = () => {
     if (menuData && menuData.length > 0) {
       menuData.forEach((item) => {
         if (item.page) {
-          newHomeRoutes.push({ path: item.path, element: lazyLoad(`views/${item.page}`) })
+          //const el = lazy(() => import(/* @vite-ignore */`@/views/${item.page}`))
+          newHomeRoutes.push({ path: item.path, element: lazyLoad(lazy(() => import(/* @vite-ignore */`./views/${item.page}`))) })
         }
         if (item.children && item.children.length > 0) {
           item.children.forEach((child) => {
-            newHomeRoutes.push({ path: child.path, element: lazyLoad(`views/${child.page}`) })
+            //const el = lazy(() => import(/* @vite-ignore */`@/views/${child.page}`))
+            newHomeRoutes.push({ path: child.path, element: lazyLoad(lazy(() => import(/* @vite-ignore */`./views/${child.page}`))) })
           })
         }
       })
     }
-    routeList[index].children = newHomeRoutes
+    //routeList[index].children = newHomeRoutes
+    //routeList = [...routeList, ...newHomeRoutes]
     const outlet = useRoutes(routeList)
     return outlet;
   }

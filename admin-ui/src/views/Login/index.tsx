@@ -18,7 +18,7 @@ const Login = () => {
         // initLoginBg();
         // window.onresize = function () { initLoginBg() };
         form.setFieldsValue({
-            username: 'test5',
+            username: 'admin',
             password: '123456',
         });
     }, []);

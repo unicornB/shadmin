@@ -2,7 +2,7 @@ import { Col, Row, Space } from "antd"
 import { useState } from "react"
 import CountUpCard from "./components/CountUpCard"
 import ChartsCard from "./components/ChartsCard"
-import { countUpData, pieOptions, ringOptions, radarOptions, barOptions, lineOptions } from './data'
+import { pieOptions, ringOptions, radarOptions, barOptions, lineOptions } from './data'
 const Page: React.FC = () => {
     const [isLoading, setIsLoading] = useState(true)
 

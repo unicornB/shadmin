@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector } from "react-redux"
 import { useStoreTrigger } from "@/common/hooks";
-import { Avatar, Breadcrumb, Button, Dropdown, Flex, Layout, MenuProps, Popover, Space, theme } from 'antd';
+import { Avatar, Breadcrumb, Button, Flex, Layout, Popover, Space, theme } from 'antd';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import MainMenu from '@/components/MainMenu';
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
     const currentRoute = useLocation();
     const navigate = useNavigate();
     const {
-        token: { colorBgContainer, borderRadiusLG },
+        token: { colorBgContainer },
     } = theme.useToken();
     const siderStyle: React.CSSProperties = {
         overflow: 'auto',

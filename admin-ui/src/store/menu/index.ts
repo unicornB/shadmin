@@ -1,4 +1,4 @@
-import type { Dispatch } from "redux";
+
 interface CommonState {
     title: string//标题
     collapsed: boolean//左菜单栏是否收起
@@ -33,11 +33,11 @@ const store = {
     },
     //异步
     asyncActions: <Actions>{
-        asyncsetRoutes(commit: Dispatch, action: Params) {
-            setTimeout(() => {
-                //commit({ type: "addCount", routeList: action.routeList });
-            }, 1000);
-        },
+        // asyncsetRoutes(commit: Dispatch, action: Params) {
+        //     setTimeout(() => {
+        //         //commit({ type: "addCount", routeList: action.routeList });
+        //     }, 1000);
+        // },
     },
 };
 

@@ -2,7 +2,7 @@
 import { DeleteOutlined, ExclamationCircleFilled, SearchOutlined, } from "@ant-design/icons"
 import { Button, Form, Input, message, Modal, Select, Space, Table, TableProps } from "antd"
 import { useEffect, useRef, useState } from "react"
-import { SysAdmin, SysAdminRequest } from "@/common/typings/sys_admin"
+import { SysAdmin } from "@/common/typings/sys_admin"
 import { clear, pageList } from "@/common/service/api/operlog"
 import PermissionButton from "@/components/PermissionButton"
 import { SysOperLog, SysOperLogRequest } from "@/common/typings/sys_oper_log"

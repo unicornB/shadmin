@@ -1,10 +1,10 @@
-import { Button, Col, Flex, Input, message, Popover, Row, Space, Tabs, TabsProps, Modal, Form, Select, Checkbox, Pagination, Image, Tooltip, UploadProps, Upload, Result, Empty } from "antd";
+import { Button, Flex, Input, message, Popover, Space, Tabs, TabsProps, Modal, Form, Select, Checkbox, Pagination, Image, Tooltip, UploadProps, Upload, Empty } from "antd";
 import styles from './material.module.scss'
 import React, { forwardRef, useEffect, useImperativeHandle, useState } from "react";
 import { fileCateAdd, fileCateDelete, fileCateList, fileCateUpdate } from "@/common/service/api/filecate";
 import { SysFileCate } from "@/common/typings/sys_file_cate";
 import RemixIcon from "@/components/RemixIcon";
-import { CheckOutlined, ExclamationCircleFilled, PlayCircleOutlined, SmileOutlined } from "@ant-design/icons";
+import { CheckOutlined, ExclamationCircleFilled, PlayCircleOutlined } from "@ant-design/icons";
 import { getToken } from "@/common/utils/auth";
 import { delFile, moveFile, pageList, reFileName } from "@/common/service/api/file";
 import { SysFile, SysFileRequest } from "@/common/typings/sys_file";
@@ -305,7 +305,7 @@ const Page: React.FC<MaterialPickerProps> = forwardRef<MaterialPickerMethods, Ma
                 <Image style={{ display: 'none' }} preview={{
                     visible: item.visible,
                     src: oimageUrl,
-                    onVisibleChange: (value) => {
+                    onVisibleChange: (_) => {
                         //setVisible(value);
                         onPreview(index)
                     },
@@ -361,7 +361,6 @@ const Page: React.FC<MaterialPickerProps> = forwardRef<MaterialPickerMethods, Ma
         )
     }
     const audioItem = (item: SysFile, index: number) => {
-        let oimageUrl = item.host + "/" + item.filePath
         return (
             <div className={styles.imageBox} onMouseEnter={() => toggleHover(index)}
                 onMouseLeave={() => toggleHover(index)}>
@@ -516,7 +515,7 @@ const Page: React.FC<MaterialPickerProps> = forwardRef<MaterialPickerMethods, Ma
     }
     const hanleReName = async () => {
         console.log(currFile);
-        const { data, error } = await reFileName(currFile);
+        const { error } = await reFileName(currFile);
         if (error) {
             message.error(error.msg);
         } else {
@@ -622,9 +621,6 @@ const Page: React.FC<MaterialPickerProps> = forwardRef<MaterialPickerMethods, Ma
     }
     const clearSelectList = () => {
         setSelectedList([]);
-    }
-    const getSelectedMaterial = () => {
-        return selectedList;
     }
     return (
         <div className={styles.pageContainer}>

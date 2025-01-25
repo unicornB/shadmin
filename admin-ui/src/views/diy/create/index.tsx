@@ -1,17 +1,14 @@
-import { Col, Flex, Layout, Row, Tabs, TabsProps } from "antd"
-const { Header, Content, Footer, Sider } = Layout;
-const style: React.CSSProperties = { background: '#0092ff', padding: '8px 0' };
+import { Flex, Layout, Tabs, TabsProps } from "antd"
+const { Header, Content, Sider } = Layout;
+
 import '@/assets/styles/diy.scss'
 import RemixIcon from "@/components/RemixIcon";
-import Sortable, { SortableEvent } from 'sortablejs'
+import { SortableEvent } from 'sortablejs'
 import { useEffect, useState } from "react";
 import { ReactSortable } from "react-sortablejs";
 import { baseComponents, IComponent } from './components'
 const Page: React.FC = () => {
-    interface ItemType {
-        id: number;
-        name: string;
-    }
+
     const [state, setState] = useState<any[]>([]);
     const [centerState, setCenterState] = useState<any[]>([]);
     const [selectedIndex, setSelectedIndex] = useState<number>(-1);
@@ -131,10 +128,7 @@ const Page: React.FC = () => {
         console.log("onDragAdd id", id)
         setSelectedIndex(evt.newIndex!)
     }
-    const onDragMove = (evt: Sortable.MoveEvent) => {
-        console.log("onDragMove", evt)
 
-    }
     const onListChange = (newState: any[]) => {
         console.log("onListChange", newState)
         setCenterState(newState)

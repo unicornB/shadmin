@@ -1,5 +1,5 @@
 import RemixIcon from "@/components/RemixIcon";
-import { ColorPicker, Flex, Radio, RadioChangeEvent } from "antd"
+import { ColorPicker, Radio, RadioChangeEvent } from "antd"
 import React from "react";
 
 const CarouselSetting: React.FC = (props: any) => {
