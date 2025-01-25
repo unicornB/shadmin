@@ -2,16 +2,15 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">星辰移动开发框架</h1>
 <h4 align="center">基于gin+react前后端分离的移动开发框架</h4>
 <p align="center">
-	<a href="https://gitee.com/y_project/RuoYi-Vue/stargazers"><img src="https://img.shields.io/github/stars/unicornB/shadmin.svg?style=social&label=Stars"></a>
-	<a href="https://gitee.com/y_project/RuoYi-Vue"><img src="https://img.shields.io/badge/RuoYi-v3.8.9-brightgreen.svg"></a>
-	<a href="https://gitee.com/y_project/RuoYi-Vue/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
+	<a href="#"><img src="https://img.shields.io/github/stars/unicornB/shadmin.svg?style=social&label=Stars"></a>
+	<a href="#"><img src="https://img.shields.io/badge/shadmin-v1.0.0-brightgreen.svg"></a>
 </p>
 
 ## 平台简介
 
 星辰移动开发框架是一套全部开源的快速开发平台，可以免费使用。
 
-* 前端采用React18、Ant Design,react-router-dom,react-redux。
+* 前端采用React18、Ant Design,react-router-dom,react-redux、Typescript。
 * 后端采用Gin、Gorm、Mysql、Redis & Jwt。
 * 权限认证使用Jwt，支持多终端认证系统。
 * 支持加载动态权限菜单，多方式轻松权限控制
